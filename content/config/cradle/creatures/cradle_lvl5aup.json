@@ -55,7 +55,7 @@
 		},
 		"hasDoubleWeek" : true,
 		"graphics" : {
-			"animation" : "cradle/creatures/battle/lvl5аup.def",
+			"animation" : "cradle/creatures/battle/lvl5aup.def",
 			"map" : "cradle/creatures/adventure/lvl5aup.def",
 			"iconSmall" : "cradle/creatures/icon/lvl5aup.bmp",
 			"iconLarge" : "cradle/creatures/portrait/lvl5aup.bmp",

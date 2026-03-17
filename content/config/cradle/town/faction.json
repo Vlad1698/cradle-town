@@ -3,7 +3,6 @@
 		"name" : "Cradle",
 		"alignment" : "good",
 		"boat" : "boatFortress",
-		"primaryResource" : "crystal",
 		"nativeTerrain" : "nightStone",
 		"creatureBackground" : {
 			"120px" : "cradle/creaturebg120px",
@@ -206,6 +205,7 @@
 				]
 			],
 			"moatAbility" : "castleMoat",
+			"primaryResource" : "crystal",
 			"horde" : [
 				0,
 				5

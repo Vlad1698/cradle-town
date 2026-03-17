@@ -3,7 +3,7 @@
 	"description" : "The new city of soul guides, Cradle, connected to the otherworldly dimension of eternity, night and dreams.",
 	"author" : "Vovan1698",
 	"contact" : "discord: Vovan1698, zeryss",
-	"version" : "1.0.0",
+	"version" : "1.0.1",
 	"modType" : "Town",
 	"compatibility" : {
 		"min" : "1.7.0"
@@ -16,6 +16,9 @@
 		]
 	},
 	"changelog" : {
+		"1.0.1" : [
+			"Fix for lvl 5 creatures animations"
+		],		
 		"1.0.0" : [
 			"Initial release"
 		]
