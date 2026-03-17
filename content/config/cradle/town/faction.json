@@ -1,0 +1,240 @@
+{
+	"cradle": {
+		"name": "Cradle",
+		"alignment": "good",
+		"boat" : "boatFortress",
+		"primaryResource": "crystal",
+		"nativeTerrain": "nightStone",
+		"creatureBackground": {
+			"120px": "cradle/creaturebg120px",
+			"130px": "cradle/creaturebg130px"
+		},
+		"town": {
+			"mapObject": {
+				"filters": {
+					"castle": [
+						"allOf",
+						[
+							"castle"
+						],
+						[
+							"noneOf",
+							[
+								"capitol"
+							]
+						]
+					],
+					"citadel": [
+						"allOf",
+						[
+							"citadel"
+						],
+						[
+							"noneOf",
+							[
+								"castle"
+							]
+						]
+					],
+					"fort": [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"noneOf",
+							[
+								"citadel"
+							]
+						]
+					]
+				},
+				"templates": {
+					"capitol": {
+						"animation": "cradle/map/capitol.def"
+					},
+					"castle": {
+						"animation": "cradle/map/castle.def"
+					},
+					"citadel": {
+						"animation": "cradle/map/citadel.def"
+					},
+					"fort": {
+						"animation": "cradle/map/fort.def"
+					},
+					"village": {
+						"animation": "cradle/map/village.def"
+					}
+				}
+			},
+			"musicTheme": [ "music/factions/cradle/CradleTown" ],
+			"creatures": [
+				[
+					"cradle_lvl1",
+					"cradle_lvl1up"
+				],
+				[
+					"cradle_lvl2",
+					"cradle_lvl2up"
+				],
+				[
+					"cradle_lvl3",
+					"cradle_lvl3up"
+				],
+				[
+					"cradle_lvl4",
+					"cradle_lvl4up"
+				],
+				[
+					"cradle_lvl5",
+					"cradle_lvl5up",
+					"cradle_lvl5a",
+					"cradle_lvl5aup"
+				],
+				[
+					"cradle_lvl6",
+					"cradle_lvl6up",
+				],
+				[
+					"cradle_lvl7",
+					"cradle_lvl7up"
+				]
+			],
+			"guildWindow": "cradle/town/mageguild",
+			"names": [
+				"Noctela",
+				"Zvezdozor",
+				"Tumanora",
+				"Starry Eternity",
+				"Sonnagor",
+				"Lukora",
+				"Teniora",
+				"Luness ",
+				"Tihosvet",
+				"Mirozor",
+				"Horstinus"
+			],
+			"hallBackground": "cradle/town/hall",
+			"hallSlots": [
+				[
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern"
+					],
+					[
+						"blacksmith"
+					]
+				],
+				[
+					[
+						"marketplace",
+						"resourceSilo"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3",
+						"mageGuild4",
+						"mageGuild5"
+					],
+					[
+						"special1"
+					],
+					[
+						"shipyard"
+					]
+				],
+				[
+					[
+						"special2"
+					],
+					[
+						"horde1"
+					],
+					[
+						"horde4",
+						"horde4Upgr"
+					]
+				],
+				[
+					[
+						"dwellingLvl1",
+						"dwellingUpLvl1"
+					],
+					[
+						"dwellingLvl2",
+						"dwellingUpLvl2"
+					],
+					[
+						"dwellingLvl3",
+						"dwellingUpLvl3"
+					],
+					[
+						"dwellingLvl4",
+						"dwellingUpLvl4"
+					]
+				],
+				[
+					[
+						"dwellingLvl5",
+						"dwellingUpLvl5"
+					],
+					[
+						"dwellingLvl5B",
+						"dwellingUpLvl5B"
+					],
+					[
+						"dwellingLvl6",
+						"dwellingUpLvl6"
+					],
+					[
+						"dwellingLvl7",
+						"dwellingUpLvl7"
+					]
+				]
+			],
+			"moatAbility" : "castleMoat",
+			"horde": [
+				0,
+				5
+			],
+			"icons": {
+				"fort": {
+					"built": {
+						"large": "cradle/icons/fortbuildedlarge.bmp",
+						"small": "cradle/icons/fortbuildedsmall.bmp"
+					},
+					"normal": {
+						"large": "cradle/icons/fortlarge.bmp",
+						"small": "cradle/icons/fortsmall.bmp"
+					}
+				},
+				"village": {
+					"built": {
+						"large": "cradle/icons/hallbuildedlarge.bmp",
+						"small": "cradle/icons/hallbuildedsmall.bmp"
+					},
+					"normal": {
+						"large": "cradle/icons/halllarge.bmp",
+						"small": "cradle/icons/hallsmall.bmp"
+					}
+				}
+			},
+			"mageGuild": 5,
+			"defaultTavern": 5,
+			"tavernVideo": "TAVERN.BIK",
+			"townBackground": "cradle/town/background",
+			"guildBackground" : "TPMAGE.bmp"
+		}
+	}
+}

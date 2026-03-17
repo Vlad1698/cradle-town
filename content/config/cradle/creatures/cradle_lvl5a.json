@@ -1,0 +1,104 @@
+{
+	"cradle_lvl5a": {
+		"name": {
+			"singular": "Sleeping Nocshu",
+			"plural": "Sleeping Nocshus"
+		},
+		"upgrades": [
+			"cradle_lvl5aup"
+		],
+		"level": 5,
+		"faction": "cradle",
+		"cost": {
+			"wood": 0,
+			"mercury": 0,
+			"ore": 0,
+			"sulfur": 0,
+			"crystal": 0,
+			"gems": 0,
+			"gold": 400
+		},
+		"fightValue": 730,
+		"aiValue": 590,
+		"growth": 3,
+		"attack": 12,
+		"shots" : 12,
+		"defense": 10,
+		"hitPoints": 35,
+		"speed": 7,
+		"damage": {
+			"min": 10,
+			"max": 12
+		},
+		"advMapAmount": {
+			"max": 13,
+			"min": 9
+		},
+		"doubleWide": false,
+		"abilities": {
+			"Shoot": 
+			{
+				"type": "SHOOTER"
+			},
+			"castsHeals" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.firstAid",
+				"val" : 2
+			},
+			"casts" :
+			{
+				"type" : "CASTS",
+				"val" : 10
+			},
+			"mindImmun" : 
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+			"nonLiving" : 
+			{
+				"type" : "NON_LIVING"
+			}
+		},
+		"hasDoubleWeek": true,
+		"graphics": {
+			"animation": "cradle/creatures/battle/lvl5а.def",
+			"map": "cradle/creatures/adventure/lvl5a.def",
+			"iconSmall": "cradle/creatures/icon/lvl5a.bmp",
+			"iconLarge": "cradle/creatures/portrait/lvl5a.bmp",
+			"timeBetweenFidgets": 1.00,
+			"animationTime": {
+				"walk": 1.4,
+				"idle": 10.00,
+				"attack": 1
+			},
+			"missile": {
+				"attackClimaxFrame": 5,
+				"projectile": "cradle/projectiles/missile5lvla.def",
+				"offset": {
+					"upperX": 0,
+					"upperY": 0,
+					"middleX": 0,
+					"middleY": 0,
+					"lowerX": -5,
+					"lowerY": 20
+				},
+				"frameAngles": [
+					-90,
+					-45,
+					0,
+					45,
+					90
+				]
+			}
+		},
+		"sound": {
+			"attack": "cradle/LVLALT5ATTK.wav",
+			"defend": "cradle/LVLALT5MAGIK.wav",
+			"killed": "TRLLKILL.wav",
+			"move": "cradle/LVLALT5WALK.wav",
+			"shoot": "cradle/LVLALT5ATTK.wav",
+			"wince": "CALFWNCE.wav"
+		}
+	}
+}

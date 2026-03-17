@@ -1,0 +1,19 @@
+{
+	"nightStone" :
+	{
+		"text":"Night Stone",
+		"moveCost" : 100,
+		"minimapUnblocked" : [ 14, 26, 41 ],
+		"minimapBlocked"   : [ 66, 66, 66 ],
+		"music" : [ "factions/cradle/nightStoneTerrain.ogg" ],
+		"tiles" : "cradle/terrain/terrain",
+		"shortIdentifier" : "ns",
+		"battleFields" : ["nightStone_back1", "nightStone_back2"],
+		"type": [],
+		"allowedLayers" : [ "surface" ],
+		"river" : "nightStoneRiver",
+		"rockTerrain" : "rock",
+		"horseSound" : "horse00",
+		"horseSoundPenalty" : "horse20"
+	}
+}

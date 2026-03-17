@@ -1,0 +1,16 @@
+{
+	"core:treeOfKnowledge" : {
+		"types" : {
+			"treeOfKnowledge" : {
+				"templates" : {
+					"nightStone_treeOfKnowledge" : {
+						"animation" : "cradle/terrain/oak",
+						"visitableFrom" : ["---", "-+-", "+++"],
+						"mask" : ["VVV", "VVV", "VAB"],
+						"allowedTerrains" : ["nightStone"]
+					}
+				}
+			}
+		}
+	}
+}

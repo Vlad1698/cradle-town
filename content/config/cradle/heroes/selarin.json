@@ -1,0 +1,50 @@
+{
+	"cradle_selarin": {
+		"army": [
+			{
+				"creature": "cradle_lvl1",
+				"max": 25,
+				"min": 15
+			},
+			{
+				"creature": "cradle_lvl2",
+				"max": 9,
+				"min": 7
+			},
+			{
+				"creature": "cradle_lvl3",
+				"max" : 5,
+				"min" : 3
+			}
+		],
+		"female": false,
+		"class": "cradle_oneiroguard",
+		"images": {
+			"large": "cradle/heroes/selarin/selarinB.bmp",
+			"small": "cradle/heroes/selarin/selarinS.bmp",
+			"specialtyLarge": "cradle/heroes/selarin/selarinSpecB.bmp",
+			"specialtySmall": "cradle/heroes/selarin/selarinSpecS.bmp"
+		},
+		"spellbook" :
+		[
+			"shield" 
+		],
+		"skills":
+		[
+			{ "skill" : "resistance", "level": "basic" },
+			{ "skill" : "firstAid", "level": "basic" }
+		],
+		"specialty" : {
+			"secondary" : "firstAid"
+		},
+		"texts": {
+			"biography": "One of the oldest nokshu, whose eyes illuminate all souls with the saving light of eternity. Many sleeping monks are his faithful disciples; dozens of generations of nokshu who now serve the Cradle have passed through his ranks. Among his mortal kin, no one remains who lived with him in those distant times before reality tore apart in this world and his people swore allegiance to Horst. No one knows of his past life except Selarin himself; he left it behind long ago, finding his sole purpose in serving eternity itself.",
+			"name": "Selarin",
+			"specialty": {
+				"description" : "{First Aid}\r\n\r\nReceives a 5% per level bonus to First Aid skill.",
+				"tooltip" : "Skill bonus: First Aid",
+				"name" : "First Aid"
+			}
+		}
+	}
+}

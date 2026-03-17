@@ -1,0 +1,70 @@
+{
+	"cradle_lvl2up": {
+		"name": {
+			"singular": "Wart of Noctras",
+			"plural": "Warts of Noctras"
+		},
+		"level": 2,
+		"special": false,
+		"faction": "cradle",
+		"cost": {
+			"wood": 0,
+			"mercury": 0,
+			"ore": 0,
+			"sulfur": 0,
+			"crystal": 0,
+			"gems": 0,
+			"gold": 150
+		},
+		"fightValue": 150,
+		"aiValue": 195,
+		"growth": 9,
+		"attack": 7,
+		"defense": 5,
+		"hitPoints": 15,
+		"shots": 20,
+		"speed": 6,
+		"damage": {
+			"min": 2,
+			"max": 3
+		},
+		"advMapAmount": {
+			"max": 32,
+			"min": 18
+		},
+		"doubleWide": false,
+"abilities": {
+	"spellImmuty" : {
+		"type" : "LEVEL_SPELL_IMMUNITY",
+		"val" : 2
+	},
+	"mindImmun" : {
+		"type" : "MIND_IMMUNITY"
+	},
+	"nonLiving" : {
+		"type" : "NON_LIVING"
+	}
+},
+		"hasDoubleWeek": true,
+		"graphics": {
+			"animation": "cradle/creatures/battle/lvl2up.def",
+			"map": "cradle/creatures/adventure/lvl2up.def",
+			"iconSmall": "cradle/creatures/icon/lvl2up.bmp",
+			"iconLarge": "cradle/creatures/portrait/lvl2up.bmp",
+			"timeBetweenFidgets": 1.00,
+			"animationTime": {
+				"walk": 1,
+				"idle": 10.00,
+				"attack": 1
+			}
+		},
+		"sound": 
+		{
+			"attack": "cradle/LVL2ATTK.wav",
+			"defend": "MONKDFND.wav",
+			"killed": "cradle/LVL2DIE.wav",
+			"move": "MONKMOVE.wav",
+			"wince": "cradle/LVL2DMG.wav"
+		}
+	}
+}

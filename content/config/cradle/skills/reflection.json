@@ -1,0 +1,64 @@
+{
+	"reflection" : {
+		"name" : "Reflection",
+		"gainChance" : {
+			"might" : 1,
+			"magic" : 1
+		},
+		"specialty" : [
+			"main"
+		],
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "MAGIC_MIRROR",
+						"valueType" : "INDEPENDENT_MAX",
+						"duration" : "N_TURNS"
+							
+				}
+			}
+		},
+		"basic" : {
+			"images" : {
+				"small" : "cradle/skills/bsmall",
+				"medium" : "cradle/skills/bmedium",
+				"large" : "cradle/skills/blarge",
+				"scenarioBonus" : "cradle/skills/blargebonus"
+			},
+			"description" : "{Basic Reflection}\n\nBattle Reflection gives a 10% chance to reflect a spell aimed at creatures.",
+			"effects" : {
+				"main" : {
+					"val" : 10
+				}
+			}
+		},
+		"advanced" : {
+			"images" : {
+				"small" : "cradle/skills/asmall",
+				"medium" : "cradle/skills/amedium",
+				"large" : "cradle/skills/alarge",
+				"scenarioBonus" : "cradle/skills/alargebonus"
+			},
+			"description" : "{Advanced Reflection}\n\nBattle Reflection gives a 20% chance to reflect a spell aimed at creatures.",
+			"effects" : {
+				"main" : {
+					"val" : 20
+				}
+			}
+		},
+		"expert" : {
+			"images" : {
+				"small" : "cradle/skills/esmall",
+				"medium" : "cradle/skills/emedium",
+				"large" : "cradle/skills/elarge",
+				"scenarioBonus" : "cradle/skills/elargebonus"
+			},
+			"description" : "{Expert Reflection}\n\nBattle Reflection gives a 30% chance to reflect a spell aimed at creatures.",
+			"effects" : {
+				"main" : {
+					"val" : 30
+				}
+			}
+		}
+	}
+}

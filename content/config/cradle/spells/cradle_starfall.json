@@ -1,0 +1,88 @@
+{
+	"cradle_starfall" : {
+		"type" : "combat",
+		"name": "Star Fall",
+		"school" : {
+			"air": true,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 5,
+		"power": 15,
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"cradle" : 30,
+			"tower" : 0,
+			"necropolis" : 0,
+			"conflux" : 0
+		},
+
+		"flags" : {
+			"damage" : true,
+			"negative" : true
+		},
+		"targetCondition" : {
+			"allOf" : {},
+			"anyOf" : {},
+			"noneOf" : {
+				//				"core:bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
+			}
+		},
+
+		"graphics" : {
+			"iconBook" : "cradle/spells/starfallBook",
+			"iconScroll" : "cradle/spells/starfallScroll",
+			"iconScenarioBonus" : "cradle/spells/starfallScenario",
+			"iconEffect" : "cradle/spells/starfallEffect",
+			"iconImmune" : "cradle/spells/starfallImmune"
+		},
+
+		"animation" : {
+			"affect" : [
+				{
+					"defName" : "cradle/spells/starfall.def"
+				}
+			]
+		},
+
+		"sounds" : {
+			"cast": "cradle/STARREIN.wav"
+		},
+		"targetType" : "CREATURE",
+
+		"levels" : {
+			"base" : {
+				//				"aiValue" : 25,
+				"range" : "0,1",
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					}
+				},
+				"targetModifier" : {
+					"smart" : false
+				},
+				"cost" : 14,
+				"power" : 25
+			},
+			"none" : {
+				"description" : "{Star fall}\n\nDeals damage to all creatures in the targeted area (7 hexes) equal to (Power*25)+25.",
+			},
+			"basic" : {
+				"description" : "{Basic Star Fall}\n\nSummon meteorites and contribute to range effects.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Star Fall}\n\nSummon meteorites and contribute to range effects.\n",
+				"cost" : 12,
+				"power" : 50
+			},
+			"expert" : {
+				"description" : "{Expert Star Fall}\n\nSummon meteorites and contribute to range effects.\n\nMake double damages than basic level.\n",
+
+				"cost" : 12,
+				"power" : 100
+			}
+		}
+	}
+}

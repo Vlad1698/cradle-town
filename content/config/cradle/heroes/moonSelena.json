@@ -1,0 +1,50 @@
+{
+	"cradle_moonSelena": {
+		"army": [
+			{
+				"creature": "cradle_lvl1",
+				"max": 25,
+				"min": 15
+			},
+			{
+				"creature": "cradle_lvl2",
+				"max": 9,
+				"min": 7
+			},
+			{
+				"creature": "cradle_lvl3",
+				"max" : 5,
+				"min" : 3
+			}
+		],
+		"female": true,
+		"class": "cradle_oneiroguard",
+		"images": {
+			"large": "cradle/heroes/moonSelena/moonSelenaB.bmp",
+			"small": "cradle/heroes/moonSelena/moonSelenaS.bmp",
+			"specialtyLarge": "cradle/heroes/moonSelena/moonSelenaSpecB.bmp",
+			"specialtySmall": "cradle/heroes/moonSelena/moonSelenaSpecS.bmp"
+		},
+		"spellbook" :
+		[
+			"summonBoat" 
+		],
+		"skills":
+		[
+			{ "skill" : "resistance", "level": "basic" },
+			{ "skill" : "navigation", "level": "basic" }
+		],
+		"specialty" : {
+			"secondary" : "navigation"
+		},
+		"texts": {
+			"biography": "Although the realms of eternal night lead a rather secluded existence, fulfilling only their duty of caring for lost souls by ferrying them to Purgatory, this does not mean complete isolation in relations with other peoples. Luna Selene is one of the strongest bridges connecting the Cradle with the world of the living. This ambitious noctra has established numerous diplomatic contacts with Erathia, the elemental lands, neighboring Gardarika, and others. Her nightship is ready to cross any sea, avoiding formidable storms and forcing pirates to avoid the flickering of her ghostly sails.",
+			"name": "Moon Selena",
+			"specialty": {
+				"description" : "{Navigation}\r\n\r\nReceives a 5% per level bonus to Navigation skill percentage.",
+				"tooltip" : "Skill bonus: Navigation",
+				"name" : "Navigation"
+			}
+		}
+	}
+}

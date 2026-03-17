@@ -1,0 +1,50 @@
+{
+	"cradle_astralia": {
+		"army": [
+			{
+				"creature": "cradle_lvl1",
+				"max": 25,
+				"min": 15
+			},
+			{
+				"creature": "cradle_lvl2",
+				"max": 9,
+				"min": 7
+			},
+			{
+				"creature": "cradle_lvl3",
+				"max" : 5,
+				"min" : 3
+			}
+		],
+		"female": true,
+		"class": "cradle_oneiroguard",
+		"images": {
+			"large": "cradle/heroes/astralia/AstraliaB.bmp",
+			"small": "cradle/heroes/astralia/AstraliaS.bmp",
+			"specialtyLarge": "cradle/heroes/astralia/AstraliaSpecB.bmp",
+			"specialtySmall": "cradle/heroes/astralia/AstraliaSpecS.bmp"
+		},
+		"spellbook" :
+		[
+			"magicArrow" 
+		],
+		"skills":
+		[
+			{ "skill" : "resistance", "level": "basic" },
+			{ "skill" : "eagleEye", "level": "basic" }
+		],
+		"specialty" : {
+			"secondary" : "eagleEye"
+		},
+		"texts": {
+			"biography": "A friend among strangers, a stranger among her own—this description best describes Astralia, the only human living in the vast lands of eternal night. As an infant, her family was shipwrecked, after which they were rescued by the lone ship of the Cradle and brought directly to one of its ports. For some reason, the singing notes from the Temple of Quiet Song decided to take the girl into their care, and they were right, for the child turned out to possess a magical gift. Years of living at the gates of the dimension of eternity not only changed the girl's appearance but also granted her extraordinary power, allowing her to master alien magic without difficulty. The Noctra named her Astralia, and from then on, she became a faithful follower of the Cradle.",
+			"name": "Astralia",
+			"specialty": {
+				"description" : "{Eagle eye}\r\n\r\nReceives a 5% per level bonus to Eagle Eye skill percentage.",
+				"tooltip" : "Skill bonus: Eagle eye",
+				"name" : "Eagle eye"
+			}
+		}
+	}
+}

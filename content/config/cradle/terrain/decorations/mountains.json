@@ -1,0 +1,40 @@
+{
+   "core:mountain" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"nightStone_reROC1" : {
+						"animation" : "cradle/terrain/mountainsBL",
+						"mask" : [ "VVVVVV", "VBBBBV", "VBBBBB", "VVVBBB" ],
+						"allowedTerrains": [ "nightStone" ]
+					},
+					"nightStone_reROC2" : {
+						"animation" : "cradle/terrain/mountainsBR",
+						"mask" : [ "VVVVVV", "VVBBBB", "VBBBBB", "VBBBVV" ],
+						"allowedTerrains": [ "nightStone" ]
+					},
+					"nightStone_reROC3" : {
+						"animation" : "cradle/terrain/mountainsAL",
+						"mask" : [ "VVVV", "VBBB", "VVBB" ],
+						"allowedTerrains": [ "nightStone" ]
+					},
+					"nightStone_reROC4" : {
+						"animation" : "cradle/terrain/mountainsAR",
+						"mask" : [ "VVVV", "VBBB", "VBBV" ],
+						"allowedTerrains": [ "nightStone" ]
+					},
+					"nightStone_reROC5" : {
+						"animation" : "cradle/terrain/mountainsSR",
+						"mask" : [ "VVVV", "VVBB", "VBBV" ],
+						"allowedTerrains": [ "nightStone" ]
+					},
+					"nightStone_reROC6" : {
+						"animation" : "cradle/terrain/mountainsSL",
+						"mask" : [ "VVVV", "VBBV", "VVBB" ],
+						"allowedTerrains": [ "nightStone" ]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,355 @@
+{ 
+	"cradle" : {
+		"town" : {
+			"buildingsIcons": "cradle/townhall.def",
+			"buildings" : {
+				"blacksmith" : {
+					"cost" : { "gold" : 1000, "wood" : 5 },
+					"description" : "The Blacksmith provides your armies with first Aid Tent.",
+					"warMachine" : "firstAidTent",
+					"name" : "Blacksmith"
+				},
+				"capitol" : {
+					"cost" : { "gold" : 10000 },
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
+					"name" : "Capitol",
+					"requires" : [ "castle" ],
+					"upgrades" : "cityHall"
+				},
+				"castle" : {
+					"cost" : { "gold" : 5000, "ore" : 10, "wood" : 10 },
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
+					"name" : "Castle",
+					"upgrades" : "citadel"
+				},
+				"citadel" : {
+					"cost" : { "gold" : 2500, "ore" : 5 },
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
+					"name" : "Citadel",
+					"upgrades" : "fort"
+				},
+				"cityHall" : {
+					"cost" : { "gold" : 5000 },
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
+					"name" : "City Hall",
+					"requires" : [ "allOf", [ "mageGuild1" ], [ "blacksmith" ], [ "marketplace" ] ],
+					"upgrades" : "townHall"
+				},
+				"dwellingLvl1" : {
+					"cost" : { "gold" : 500,"ore" : 10 },
+					"description" : "The Ethereal Fountain allows you to recruit Sleepwalkers.",
+					"name" : "Ethereal Fountain",
+					"requires" : [ "fort" ]
+				},
+				"dwellingLvl2" : {
+					"cost" : { "gold" : 1000, "wood" : 5, "ore" : 5 },
+					"description" : "The Temple of Silent Song allow you to recruit Singing noctras.",
+					"name" : "Temple of Silent Song",
+					"requires" : [ "dwellingLvl1" ]
+				},
+				"dwellingLvl3" : {
+					"cost" : { "gold" : 1000, "wood" : 5 },
+					"description" : "The Shimmering Tree allows you to recruit Black Harbingers.",
+					"name" : "Shimmering Tree",
+					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "blacksmith" ]]
+				},
+				"dwellingLvl4" :
+				{
+					"description" : "The Portal of Return allows you to recruit Ethereal Guardians.",
+					"name" : "Portal of Return",
+					"cost" : { "gold" : 2000, "ore" : 5 },
+					"requires" : [ "dwellingLvl3" ],
+				},				
+				"dwellingLvl5" : {
+					"cost" : { "crystal" : 2, "gold" : 2500, "ore" : 5 },
+					"description" : "The Star Sanctuary allows you to recruit Star Casters.",
+					"name" : "Star Sanctuary",
+					"requires" : [ "allOf", [ "dwellingLvl2" ], [ "mageGuild1" ], [ "dwellingLvl4" ], [ "noneOf", [ "dwellingLvl5B" ] ]]
+				},
+				"dwellingLvl5B" : {
+					"cost" : { "gems" : 2, "gold" : 2500, "ore" : 5 },
+					"description" : "The Moon Monastery allows you to recruit Sleeping nocshu.",
+					"name" : "Moon Monastery",
+					"id" : 48,					
+					"requires" : [ "allOf", [ "dwellingLvl2" ], [ "mageGuild1" ], [ "dwellingLvl4" ], [ "noneOf", [ "dwellingLvl5" ] ] ]
+				},
+				"dwellingLvl6" : {
+					"cost" : { "gold" : 3000, "ore" : 5, "mercury" : 2 },
+					"description" : "The Cave of the Damned allow you to recruit Mourners.",
+					"name" : "Cave of the Damned",
+					"requires" : ["allOf",["anyOf",["dwellingLvl5"],["dwellingLvl5B"]]],
+				},
+				"dwellingLvl7" : {
+					"cost" : { "gold" : 7500, "ore" : 10, "crystal" : 10, "wood" : 10 },
+					"description" : "The Palace of Eternity allows you to recruit Night Reapers.",
+					"name" : "Palace of Eternity",
+					"requires" : [ "dwellingLvl6" ] 
+				},
+				"dwellingUpLvl1" : {
+					"cost" : { "gold" : 1000, "ore" : 5 },
+					"description" : "The Ethereal Fountain allows you to recruit Moonnoide.",
+					"name" : "Upg. Ethereal Fountain",
+					"requires" : [ "tavern" ],
+					"upgrades" : "dwellingLvl1"
+				},
+				"dwellingUpLvl2" : {
+					"cost" : { "gold" : 1000, "ore" : 10 },
+					"description" : "The Temple of Silent Song allow you to recruit Warts of noctras.",
+					"name" : "Upg. Temple of Silent Song",
+					"requires" : [ "blacksmith" ],
+					"upgrades" : "dwellingLvl2"
+				},
+				"dwellingUpLvl3" : {
+					"cost" : { "gold" : 1000, "wood" : 8 },
+					"description" : "The Shimmering Tree allows you to recruit Ancient Harbingers.",
+					"name" : "Upg. Shimmering Tree",
+					"upgrades" : "dwellingLvl3"
+				},
+				"dwellingUpLvl4" :
+				{
+					"description" : "The Portal of Return allows you to recruit Eternal Guardians.",
+					"name" : "Upg. Portal of Return",
+					"cost" : { "ore" : 5, "gold" : 2000 },
+					"upgrades" : "dwellingLvl4",
+					"requires" : [ "blacksmith" ]
+				},				
+				"dwellingUpLvl5" : {
+					"cost" : { "crystal" : 5, "gold" : 3000, "ore" : 5 },
+					"description" : "The Star Sanctuary allows you to recruite Star Diviners.",
+					"name" : "Upg. Star Sanctuary",
+					"upgrades" : "dwellingLvl5",
+					"requires" : [ "mageGuild2" ]
+				},
+				"dwellingUpLvl5B" : {
+					"cost" : { "gold" : 3000, "ore" : 5, "gems" : 5 },
+					"description" : "The Moon Monastery allows you to recruit Nokshu monks.",
+					"name" : "Upg. Moon Monastery",
+					"upgrades" : "dwellingLvl5B",
+					"id" : 55,					
+					"requires" : [ "mageGuild2" ]
+				},
+				"dwellingUpLvl6" : {
+					"cost" : { "crystal" : 5, "gold" : 4000, "ore" : 5, "mercury" : 3 },
+					"description" : "The Cave of the Damned allow you to recruit Dark Mourners.",
+					"name" : "Upg. Cave of the Damned",
+					"upgrades" : "dwellingLvl6"
+				},
+				"dwellingUpLvl7" : {
+					"cost" : { "gems" : 10, "gold" : 18000, "crystal" : 15, "sulfur" : 5 },
+					"description" : "The Palace of Eternity allows you to recruit Moon Reapers.",
+					"name" : "Upg. Palace of Eternity",
+					"upgrades" : "dwellingLvl7"
+				},
+				"fort" : {
+					"cost" : { "gold" : 5000, "ore" : 20, "wood" : 20 },
+					"description" : "The Fort provides your town with defensive walls.",
+					"name" : "Fort"
+				},
+				"grail": {
+					"description": "The Exodus of souls increases the weekly generation of creatures by 50% and provides your kingdom with an additional 5000 gold each day, also allows your heroes to learn spells cast by enemies with a 100% chance.",
+					"bonuses": [
+						{ 	"type": "LEARN_BATTLE_SPELL_CHANCE",  
+							"val": 100, 
+							"propagator": "PLAYER" 
+						}
+						   ],
+					"mode": "grail",
+					"produce": { "gold": 5000 },
+					"name": "Exodus of souls"
+				},
+				"horde1" : {
+					"cost" : { "gold" : 1000 },
+					"description" : "The Lighthouse of Souls increases Sleepwalkers production by 9 per week.",
+					"name" : "Lighthouse of Souls",
+					"requires" : [ "dwellingLvl1" ],
+				},
+				"horde4" : {
+					"cost" : { "gold" : 4000 },
+					"description" : "The Armor of the Fallen increases Ethereal Guardians production by 3 per week.",
+					"name" : "Armor of the Fallen",
+					"id" : 24,					
+					"upgrades" : "dwellingLvl4"
+				},
+				"horde4Upgr" : {
+					"cost" : { "gold" : 4000 },
+					"description" : "The Armor of the Fallen increases Eternal Guardians production by 3 per week.",
+					"mode" : "auto",
+					"name" : "Armor of the Fallen",
+					"requires" : [ "horde4" ],
+					"id" : 25,					
+					"upgrades" : "dwellingUpLvl4"
+				},
+				"mageGuild1" : {
+					"cost" : { "gold" : 2000, "ore" : 5, "wood" : 5 },
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 1"
+				},
+				"mageGuild2" : {
+					"cost" : { "crystal" : 4, "gems" : 4, "gold" : 1000, "mercury" : 4, "ore" : 5, "sulfur" : 4, "wood" : 5 },
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 2",
+					"upgrades" : "mageGuild1"
+				},
+				"mageGuild3" : {
+					"cost" : { "crystal" : 6, "gems" : 6, "gold" : 1000, "mercury" : 6, "ore" : 5, "sulfur" : 6, "wood" : 5 },
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 3",
+					"upgrades" : "mageGuild2"
+				},
+				"mageGuild4" : {
+					"cost" : {"crystal" : 8, "gems" : 8, "gold" : 1000, "mercury" : 8, "ore" : 5, "sulfur" : 8, "wood" : 5},
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 4",
+					"upgrades" : "mageGuild3"
+				},
+				"mageGuild5" : {
+					"cost" : {"crystal" : 10,"gems" : 10,"gold" : 1000,"mercury" : 10,"ore" : 5,"sulfur" : 10,"wood" : 5},
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 5",
+					"upgrades" : "mageGuild4"
+				},
+				"marketplace" : {
+					"cost" : { "gold" : 500, "wood" : 5 },
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"name" : "Marketplace"
+				},
+				"resourceSilo" : {
+					"cost" : { "gold" : 5000, "ore" : 5 },
+					"description" : "The Resource Silo provides you with an additional +1 crystal each day.",
+					"name" : "Resource Silo",
+					"produce": { "crystal": 1 },
+					"requires" : [ "marketplace" ]
+				},
+
+				"special1" : {
+					"name" : "Dimensional Gate",
+					"description" : "The Dimensional Gate allows local heroes to learn Reflection secondary skill.",
+					"cost" : {
+						"crystal": 10,
+						"gems": 5,
+						"gold": 5000,
+						"ore": 10
+					},
+					"manualHeroVisit" : true,
+					"configuration" : {
+						"visitMode" : "limiter",
+						"visitLimiter" : {
+							"secondary" : {
+								"reflection" : 1
+							}
+						},
+						"onVisitedMessage" : "Your hero has already mastered the lore of the Reflection.",
+						"selectMode" : "selectFirst",
+						"canRefuse" : true,
+						"rewards" : [
+							{
+								"limiter" : {
+									"anyOf" : [
+										{
+											"heroClasses" : [
+												
+											],
+											"canLearnSkills" : true
+										},
+										{
+											"secondary" : {
+												"scholar" : 1
+											},
+											"canLearnSkills" : true
+										}
+									]
+								},
+								"message" : "Do you want your hero to master the lore of the Reflection?",
+								"secondary" : [
+									{
+										"type" : "reflection",
+										"amount" : 1
+									}
+								]
+							}
+						],
+						"onEmpty" : [
+							{
+								"limiter" : {
+									"anyOf" : [
+										{
+											"heroClasses" : [
+												
+											]
+										},
+										{
+											"secondary" : {
+												"scholar" : 1
+											}
+										}
+									]
+								},
+								"message" : "Your hero attempts to master the lore of the Reflection in vain. Already possessing many skills, your hero is unable to learn anything new."
+							},
+							{
+								"message" : "Your hero attempts to master the lore of the Reflection before realizing they are unable to read them. It appears as though this art is only accessible to locals and competent scholars."
+							}
+						]
+					}
+				},
+				"special2": {
+					"cost": {
+						"gold": 1000,
+						"crystal": 10
+					},
+					"description": "Horst's Light increases the maximum health of Cradle creatures by 2.",
+					"bonuses": [
+						{
+							"type": "STACK_HEALTH",
+							"val" : 2,
+							"valueType" : "ADDITIVE_VALUE",
+							"propagator" : "GLOBAL_EFFECT",
+							"limiters" : [
+								{
+								"type": "CREATURE_FACTION_LIMITER",
+								"parameters" : ["cradle"]
+								}
+								     ]
+						}
+						  ],
+					"name": "Horst's Light",
+					"requires": [
+						"mageGuild2"
+					]
+				},
+				"tavern" : {
+					"cost" : { "gold" : 500, "wood" : 5 },
+					"description" : "The Tavern increases morale for troops defending the city.",
+					"name" : "Tavern"
+				},
+				"shipyard" :
+				{
+					"name" : "Shipyard",
+					"description" : "The Shipyard allows you to purchase ships.",
+					"cost" :
+					{
+						"wood" : 20,
+						"gold" : 2000
+					},
+				},
+				"ship" :
+				{
+					"name" : "ship",
+					"description" : "Shipyard allows ships to be built.",
+				},
+				"townHall" : {
+					"cost" : { "gold" : 2500 },
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
+					"name" : "Town Hall",
+					"requires" : [ "tavern" ],
+					"upgrades" : "villageHall"
+				},
+				"villageHall" : {
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+					"mode" : "auto",
+					"name" : "Village Hall"
+				}
+			}
+		}
+	}
+}

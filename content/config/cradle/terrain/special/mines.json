@@ -1,0 +1,78 @@
+{
+	"core:mine" : {
+		"types" : {
+			"crystalCavern" : {
+				"templates": {
+					"nightStoneMines01" : {
+						"animation" : "cradle/terrain/mineCrystal",
+						"visitableFrom": ["---", "+++", "+++"],
+				     	"mask": ["VVVV", "BBB", "VBAB"],
+					    "allowedTerrains": ["nightStone"]
+					}
+				}
+			},
+			"goldMine" : {
+				"templates": {
+					"nightStoneMines02": {
+					"animation" : "cradle/terrain/mineGold",
+					"visitableFrom": ["---", "+++", "+++"],
+					"mask": ["VVVV", "BBB", "VBAB"],
+					"allowedTerrains": ["nightStone"]
+					}
+				}
+			},
+			
+			"sawmill" : {
+				"templates" : {
+					    "nightStoneMines03": {
+					    "animation" : "cradle/terrain/mineWood",
+                        			"mask" : ["VVVVV", "VVBBB", "VBBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["nightStone"]
+					}
+				}
+			},
+			
+			"alchemistLab" : {
+				"templates" : {
+					"nightStoneMines04" : {
+						"animation" : "cradle/terrain/mineMercury", 
+						"mask" : ["VVV", "VVV", "BAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["nightStone"]
+					}
+				}
+			},
+			"orePit" : {
+				"templates" : {
+					"nightStoneMines05" : {
+						"animation" : "cradle/terrain/mineOre",
+						"mask" : ["BBB", "BAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["nightStone"]
+					}
+				}
+			},
+			"sulfurDune" : {
+				"templates" : {
+					"nightStoneMines06" : {
+						"animation" : "cradle/terrain/mineSulfur",  
+						"mask" : ["VVV", "BAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+					    "allowedTerrains": ["nightStone"]
+					}
+				}
+			},
+			"gemPond" : {
+				"templates" : {
+					"nightStoneMines07": {
+					"animation" : "cradle/terrain/mineGem",
+					"visitableFrom": ["---", "+++", "+++"],
+					"mask" : ["BBB", "BAB"],
+					"allowedTerrains": ["nightStone"]
+					}
+				}
+			}
+		}
+	}
+}	

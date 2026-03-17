@@ -1,0 +1,71 @@
+	{
+		"cradle_lvl3": {
+			"name": {
+				"singular": "Black Harbinger",
+				"plural": "Black Harbingers"
+			},
+			"upgrades": [
+				"cradle_lvl3up"
+			],
+			"level": 3,
+			"special": false,
+			"faction": "cradle",
+			"cost": {
+				"wood": 0,
+				"mercury": 0,
+				"ore": 0,
+				"sulfur": 0,
+				"crystal": 0,
+				"gems": 0,
+				"gold": 190
+			},
+			"fightValue": 320,
+			"aiValue": 345,
+			"growth": 7,
+			"attack": 7,
+			"defense": 7,
+			"hitPoints": 24,
+			"speed": 7,
+			"damage": {
+				"min": 4,
+				"max": 5
+			},
+			"advMapAmount": {
+				"max": 18,
+				"min": 12
+			},
+			"doubleWide": false,
+			"abilities": {
+				"canFly" : {
+					"type" : "FLYING"
+				},
+				"mindImmun" : {
+					"type" : "MIND_IMMUNITY"
+				},
+				"nonLiving" : 
+			{
+				"type" : "NON_LIVING"
+			}
+			},	
+			"hasDoubleWeek": true,
+			"graphics": {
+				"animation": "cradle/creatures/battle/lvl3.def",
+				"map": "cradle/creatures/adventure/lvl3.def",
+				"iconSmall": "cradle/creatures/icon/lvl3.bmp",
+				"iconLarge": "cradle/creatures/portrait/lvl3.bmp",
+				"timeBetweenFidgets": 1.00,
+				"animationTime": {
+					"walk": 1,
+					"idle": 10.00,
+					"attack": 1
+				}
+			},
+			"sound": {
+				"attack": "cradle/LVL3ATTK.wav",
+				"defend": "TBRDDFND.wav",
+				"killed": "cradle/LVL3DIE.wav",
+				"move": "TBRDMOVE.wav",
+				"wince": "cradle/LVL3DMG.wav"
+			}
+		}
+	}

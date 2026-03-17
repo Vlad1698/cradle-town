@@ -1,0 +1,28 @@
+{
+	"core:lake" : {
+		"types" : {
+			"nightStoneLake" : {
+				"name" : "Lake",
+				"templates" : {
+					"nightStoneLake1" : {
+						"animation" : "cradle/terrain/lakeB",
+						"mask" : ["VBBBBBV", "VBBBBBV", "VBBBBBV"],
+						"allowedTerrains" : ["nightStone"]
+					},
+					"nightStoneLake2" : {
+						"animation" : "cradle/terrain/lakeA",
+						"mask" : ["BBBB", "BBBB"],
+						"allowedTerrains" : ["nightStone"]
+					},
+					"nightStoneLake3" : {
+						"animation" : "cradle/terrain/lakeS",
+						"mask" : ["BBB"],
+						"allowedTerrains" : ["nightStone"]
+					}
+				}
+			}
+		}	
+	}	
+}
+	
+	

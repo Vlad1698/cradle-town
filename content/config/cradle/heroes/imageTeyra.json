@@ -1,0 +1,57 @@
+{
+	"cradle_imageTeyra": {
+		"army": [
+			{
+				"creature": "cradle_lvl1",
+				"max": 25,
+				"min": 15
+			},
+			{
+				"creature": "cradle_lvl2",
+				"max": 9,
+				"min": 7
+			},
+			{
+				"creature": "cradle_lvl3",
+				"max" : 5,
+				"min" : 3
+			}
+		],
+		"female": false,
+		"class": "cradle_oneiroguard",
+		"images": {
+			"large": "cradle/heroes/imageTeyra/imageTeyraB.bmp",
+			"small": "cradle/heroes/imageTeyra/imageTeyraS.bmp",
+			"specialtyLarge": "cradle/heroes/imageTeyra/imageTeyraSpecB.png",
+			"specialtySmall": "cradle/heroes/imageTeyra/imageTeyraSpecS.png"
+		},
+		"spellbook" :
+		[
+			"cure" 
+		],
+		"skills":
+		[
+			{ "skill" : "resistance", "level": "basic" },
+			{ "skill" : "wisdom", "level": "advanced" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"cure" : {
+					"subtype" : "spell.cure",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		},
+		"texts": {
+			"biography": "Few nokshu can boast of having earned the name of the Cradle, as all their people prefer to serve the silent temple as monks. Teyra decided to change his fate; he long ago abandoned the walls of his native temple, having mastered the power of healing moonlight. He then took up his position on the borderlands of eternal night, assisting the defenders of the Cradle in battling invasions of vile undead who disregard the laws of existence, the evil horrors of the cities of the Reach, pirates, and many others.",
+			"name": "Image Teyra",
+			"specialty": {
+				"description" : "{Cure}\r\n\r\nCasts Cure with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
+				"tooltip" : "Spell bonus: Cure",
+				"name" : "Cure"
+			}
+		}
+	}
+}

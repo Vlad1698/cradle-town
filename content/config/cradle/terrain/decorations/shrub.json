@@ -1,0 +1,50 @@
+{
+	"core:shrub" :{
+		"types" : {
+			"object" : {
+				"templates" : {
+					"nightStoneSHR1" : {
+						"animation" : "cradle/terrain/shrub1",
+						"mask" : [ "VBV", "BBB" ],
+						"allowedTerrains": [ "nightStone" ]
+					},
+					"nightStoneSHR3" : {
+						"animation" : "cradle/terrain/shrub2",
+						"mask" : [ "BBB", "BBB" ],
+						"allowedTerrains": [ "nightStone" ]
+					},
+					"nightStoneSHR4" : {
+						"animation" : "cradle/terrain/shrub3",
+						"mask" : [ "BB", "BB" ],
+						"allowedTerrains": [ "nightStone" ]
+					},
+					"nightStoneSHR5" : {
+						"animation" : "cradle/terrain/shrub4",
+						"mask" : [ "BB", "BB" ],
+						"allowedTerrains": [ "nightStone" ]
+					},
+					"nightStoneSHR6" : {
+						"animation" : "cradle/terrain/shrub5",
+						"mask" : [ "BBB" ],
+						"allowedTerrains": [ "nightStone" ]
+					},
+					"nightStoneSHR7" : {
+						"animation" : "cradle/terrain/shrub6",
+						"mask" : [ "BBB" ],
+						"allowedTerrains": [ "nightStone" ]
+					},
+					"nightStoneSHR8" : {
+						"animation" : "cradle/terrain/shrub7",
+						"mask" : [ "VBV", "BBB" ],
+						"allowedTerrains": [ "nightStone" ]
+					},
+					"nightStoneSHR9" : {
+						"animation" : "cradle/terrain/shrub8",
+						"mask" : [ "BB", "BB" ],
+						"allowedTerrains": [ "nightStone" ]
+					}
+				}	
+			}
+		}
+	}
+}

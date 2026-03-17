@@ -1,0 +1,45 @@
+{
+	"core:flowers" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"nightStoneflowers00" : {
+						"animation" : "cradle/terrain/flowers1",
+						"mask" : [ "VVVV", "VBBB" ],
+						"allowedTerrains": [ "nightStone" ]
+					},
+					"nightStoneflowers01" : {
+						"animation" : "cradle/terrain/flowers2",
+						"mask" : [ "VVVV", "VBBB" ],
+						"allowedTerrains": [ "nightStone" ]
+					},
+					"nightStoneflowers02" : {
+						"animation" : "cradle/terrain/flowers3",
+						"mask" : [ "VVVV", "VBBB" ],
+						"allowedTerrains": [ "nightStone" ]
+					},
+					"nightStoneflowers03" : {
+						"animation" : "cradle/terrain/flowers4",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "nightStone" ]
+					},
+					"nightStoneflowers04" : {
+						"animation" : "cradle/terrain/flowers5",
+						"mask" : [ "VV", "BB" ],
+						"allowedTerrains": [ "nightStone" ]
+					},
+					"nightStoneflowers05" : {
+						"animation" : "cradle/terrain/flowers6",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "nightStone" ]
+					},
+					"nightStoneflowers06" : {
+						"animation" : "cradle/terrain/flowers7",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "nightStone" ]
+					}
+				}
+			}
+		}
+	}
+}

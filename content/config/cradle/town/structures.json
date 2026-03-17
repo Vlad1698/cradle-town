@@ -1,0 +1,337 @@
+{ 
+	"cradle" : {
+		"town" : {
+			"structures" : {
+				"mageGuild1" : {
+					"animation" : "cradle/buildings/mageGuild1",
+					"area" : "cradle/town/area/mageGuild1",
+					"border" : "cradle/town/border/mageGuild1",
+					"x" : 445,
+					"y" : 123,
+					"z" : 1
+				},
+				"mageGuild2" : {
+					"animation" : "cradle/buildings/mageGuild2",
+					"area" : "cradle/town/area/mageGuild2",
+					"border" : "cradle/town/border/mageGuild2",
+					"x" : 445,
+					"y" : 123,
+					"z" : 1
+				},
+				"mageGuild3" : {
+					"animation" : "cradle/buildings/mageGuild3",
+					"area" : "cradle/town/area/mageGuild3",
+					"border" : "cradle/town/border/mageGuild3",
+					"x" : 445,
+					"y" : 123,
+					"z" : 1
+				},
+				"mageGuild4" : {
+					"animation" : "cradle/buildings/mageGuild4",
+					"area" : "cradle/town/area/mageGuild4",
+					"border" : "cradle/town/border/mageGuild4",
+					"x" : 445,
+					"y" : 123,
+					"z" : 1
+				},
+				"mageGuild5" : {
+					"animation" : "cradle/buildings/mageGuild5",
+					"area" : "cradle/town/area/mageGuild5",
+					"border" : "cradle/town/border/mageGuild5",
+					"x" : 445,
+					"y" : 123,
+					"z" : 1
+				},
+				"tavern" : {
+					"animation" : "cradle/buildings/tavern",
+					"area" : "cradle/town/area/tavern",
+					"border" : "cradle/town/border/tavern",
+					"x" : 329,
+					"y" : 273,
+					"z" : 0
+				},
+				"fort" : {
+					"animation" : "cradle/buildings/fort",
+					"area" : "cradle/town/area/fort",
+					"border" : "cradle/town/border/fort",
+					"x" : 311,
+					"y" : 8,
+					"z" : 0
+				},
+				"citadel" : {
+					"animation" : "cradle/buildings/citadel",
+					"area" : "cradle/town/area/citadel",
+					"border" : "cradle/town/border/citadel",
+					"x" : 311,
+					"y" : 8,
+					"z" : 0
+				},				
+				"castle" : {
+					"animation" : "cradle/buildings/castle",
+					"area" : "cradle/town/area/castle",
+					"border" : "cradle/town/border/castle",
+					"x" : 311,
+					"y" : 8,
+					"z" : 0
+				},
+				"villageHall" : {
+					"animation" : "cradle/buildings/village",
+					"area" : "cradle/town/area/village",
+					"border" : "cradle/town/border/village",
+					"x" : 0,
+					"y" : 151,
+					"z" : 0
+				},
+				"townHall" : {
+					"animation" : "cradle/buildings/townHall",
+					"area" : "cradle/town/area/townHall",
+					"border" : "cradle/town/border/townHall",
+					"x" : 0,
+					"y" : 151,
+					"z" : 0
+				},
+				"cityHall" : {
+					"animation" : "cradle/buildings/cityHall",
+					"area" : "cradle/town/area/cityHall",
+					"border" : "cradle/town/border/cityHall",
+					"x" : 0,
+					"y" : 151,
+					"z" : 0
+				},
+				"capitol" : {
+					"animation" : "cradle/buildings/capitol",
+					"area" : "cradle/town/area/capitol",
+					"border" : "cradle/town/border/capitol",
+					"x" : 0,
+					"y" : 151,
+					"z" : 0
+				},				
+				"blacksmith" : {
+					"animation" : "cradle/buildings/blacksmith",
+					"area" : "cradle/town/area/blacksmith",
+					"border" : "cradle/town/border/blacksmith",
+					"x" : 142,
+					"y" : 284,
+					"z" : 1
+				},
+				"marketplace" : {
+					"animation" : "cradle/buildings/market",
+					"area" : "cradle/town/area/market",
+					"border" : "cradle/town/border/market",
+					"x" : 0,
+					"y" : 294,
+					"z" : 1
+				},
+				"resourceSilo" : {
+					"animation" : "cradle/buildings/resourseSilo",
+					"area" : "cradle/town/area/resourseSilo",
+					"border" : "cradle/town/border/resourseSilo",
+					"x" : 87,
+					"y" : 332,
+					"z" : 2
+				},
+				"dwellingLvl1" : {
+					"animation" : "cradle/buildings/dwel1",
+					"area" : "cradle/town/area/dwel1",
+					"border" : "cradle/town/border/dwel1",
+					"x" : 480,
+					"y" : 302,
+					"z" : 3
+				},			
+				"dwellingUpLvl1" : {
+					"animation" : "cradle/buildings/dwel1up",
+					"area" : "cradle/town/area/dwel1",
+					"border" : "cradle/town/border/dwel1",
+					"x" : 480,
+					"y" : 302,
+					"z" : 3
+				},
+				"horde1" : {
+					"animation" : "cradle/buildings/horde1",
+					"area" : "cradle/town/area/horde1",
+					"border" : "cradle/town/border/horde1",
+					"hidden" : true,
+					"x" : 160,
+					"y" : 102,
+					"z" : 3
+				},
+				"dwellingLvl2" : {
+					"animation" : "cradle/buildings/dwel2",
+					"area" : "cradle/town/area/dwel2",
+					"border" : "cradle/town/border/dwel2",
+					"x" : 242,
+					"y" : 175,
+					"z" : 1
+				},
+				"dwellingUpLvl2" : {
+					"animation" : "cradle/buildings/dwel2up",
+					"area" : "cradle/town/area/dwel2up",
+					"border" : "cradle/town/border/dwel2up",
+					"x" : 242,
+					"y" : 175,
+					"z" : 1
+				},
+				"dwellingLvl3" : {
+					"animation" : "cradle/buildings/dwel3",
+					"area" : "cradle/town/area/dwel3",
+					"border" : "cradle/town/border/dwel3",
+					"x" : 489,
+					"y" : 80,
+					"z" : 0
+				},
+				"dwellingUpLvl3" : {
+					"animation" : "cradle/buildings/dwel3up",
+					"area" : "cradle/town/area/dwel3",
+					"border" : "cradle/town/border/dwel3",
+					"x" : 489,
+					"y" : 80,
+					"z" : 0
+				},
+				"dwellingLvl4" : {
+					"animation" : "cradle/buildings/dwel4",
+					"area" : "cradle/town/area/dwel4",
+					"border" : "cradle/town/border/dwel4",
+					"x" : 215,
+					"y" : 290,
+					"z" : 1
+				},
+				"dwellingUpLvl4" : {
+					"animation" : "cradle/buildings/dwel4up",
+					"area" : "cradle/town/area/dwel4up",
+					"border" : "cradle/town/border/dwel4up",
+					"x" : 215,
+					"y" : 290,
+					"z" : 1
+				},
+				"horde4" : {
+					"animation" : "cradle/buildings/horde4",
+					"area" : "cradle/town/area/horde4",
+					"border" : "cradle/town/border/horde4",
+					"hidden" : true,
+					"x" : 215,
+					"y" : 290,
+					"z" : 1
+				},
+				"horde4Upgr" : {
+					"animation" : "cradle/buildings/horde4up",
+					"area" : "cradle/town/area/horde4up",
+					"border" : "cradle/town/border/horde4up",
+					"hidden" : true,
+					"builds" : "horde4",
+					"x" : 215,
+					"y" : 290,
+					"z" : 1
+				},
+				"dwellingLvl5" : {
+					"animation" : "cradle/buildings/dwel5",
+					"area" : "cradle/town/area/dwel5",
+					"border" : "cradle/town/border/dwel5",
+					"x" : 605,
+					"y" : 92,
+					"z" : 0
+				},
+				"dwellingUpLvl5" : {
+					"animation" : "cradle/buildings/dwel5up",
+					"area" : "cradle/town/area/dwel5up",
+					"border" : "cradle/town/border/dwel5up",
+					"x" : 605,
+					"y" : 92,
+					"z" : 0
+				},
+				"dwellingLvl5B" : {
+					"animation" : "cradle/buildings/dwel5alt",
+					"area" : "cradle/town/area/dwel5alt",
+					"border" : "cradle/town/border/dwel5alt",
+					"x" : 604,
+					"y" : 83,
+					"z" : 0
+				},
+				"dwellingUpLvl5B" : {
+					"animation" : "cradle/buildings/dwel5altup",
+					"area" : "cradle/town/area/dwel5altup",
+					"border" : "cradle/town/border/dwel5altup",
+					"x" : 604,
+					"y" : 83,
+					"z" : 0
+				},
+				"dwellingLvl6" : {
+					"animation" : "cradle/buildings/dwel6",
+					"area" : "cradle/town/area/dwel6",
+					"border" : "cradle/town/border/dwel6",
+					"x" : 590,
+					"y" : 214,
+					"z" : 2
+				},
+				"dwellingUpLvl6" : {
+					"animation" : "cradle/buildings/dwel6up",
+					"area" : "cradle/town/area/dwel6up",
+					"border" : "cradle/town/border/dwel6up",
+					"x" : 532,
+					"y" : 201,
+					"z" : 2
+				},
+				"dwellingLvl7" : {
+					"animation" : "cradle/buildings/dwel7",
+					"area" : "cradle/town/area/dwel7",
+					"border" : "cradle/town/border/dwel7",
+					"x" : 44,
+					"y" : 0,
+					"z" : 1
+				},	
+				"dwellingUpLvl7" : {
+					"animation" : "cradle/buildings/dwel7up",
+					"area" : "cradle/town/area/dwel7up",
+					"border" : "cradle/town/border/dwel7up",
+					"x" : 44,
+					"y" : 0,
+					"z" : 1
+				},
+				"special1" : {
+					"animation" : "cradle/buildings/spec1",
+					"area" : "cradle/town/area/spec1",
+					"border" : "cradle/town/border/spec1",
+					"x" : 165,
+					"y" : 192,
+					"z" : 4
+				},		
+				"special2" : {
+					"animation" : "cradle/buildings/spec2",
+					"area" : "cradle/town/area/spec2",
+					"border" : "cradle/town/border/spec2",
+					"x" : 248,
+					"y" : 6,
+					"z" : 1
+				},		
+				"grail" : {
+					"animation" : "cradle/buildings/grail",
+					"area" : "cradle/town/area/grail",
+					"border" : "cradle/town/border/grail",
+					"x" : 528,
+					"y" : 0,
+					"z" : 0
+				},	
+				"ship" :            { 
+					"animation" : "cradle/buildings/ship.def",
+					"area" : "cradle/town/area/ship.bmp",
+					"border" : "cradle/town/border/ship.bmp",
+					"x" : 600,
+					"y" : 281, 
+					"z" : 4,    
+					"hidden" : true },
+				"shipyard" :        { 
+					"animation" : "cradle/buildings/shipyard.def",
+					"area" : "cradle/town/area/shipyard.bmp",
+					"border" : "cradle/town/border/shipyard.bmp",     
+					"x" : 707, 
+					"y" : 281, 
+					"z" : 3 },
+				"animatedMoon" : {
+					"animation" : "cradle/buildings/fonMoon",
+					"x" : 97,
+					"y" : 0,
+					"z" : 0
+				}
+			}
+		}
+	}
+}

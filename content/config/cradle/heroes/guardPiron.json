@@ -1,0 +1,46 @@
+{
+	"cradle_guardPiron": {
+		"army": [
+			{
+				"creature": "cradle_lvl1",
+				"max": 25,
+				"min": 15
+			},
+			{
+				"creature": "cradle_lvl2",
+				"max": 9,
+				"min": 7
+			},
+			{
+				"creature": "cradle_lvl3",
+				"max" : 5,
+				"min" : 3
+			}
+		],
+		"female": false,
+		"class": "cradle_soulguide",
+		"images": {
+			"large": "cradle/heroes/guardPiron/guardPironB.bmp",
+			"small": "cradle/heroes/guardPiron/guardPironS.bmp",
+			"specialtyLarge": "cradle/heroes/guardPiron/guardPironSpecB.png",
+			"specialtySmall": "cradle/heroes/guardPiron/guardPironSpecS.png"
+		},
+		"skills":
+		[
+			{ "skill" : "resistance", "level": "basic" },
+			{ "skill" : "offence", "level": "basic" }
+		],
+		"specialty" : {
+			"creature" : "cradle_lvl4"
+		},
+		"texts": {
+			"biography": "Pyron the Ethereal Guardian is a shining example of how even silent souls can become an indispensable beacon, protecting the cities of eternity from the manifestations of evil. It was he who became the shield that prevented the destruction of the star fortress by the horrors that emerged from the malevolent Reach. Pyron, along with his fellow guardians, fought desperately against the enemy hordes even when the Noctra and Star Summoners fell, their souls returning to their creator, but the enemies of the madmen's haven were unable to prevail. Many guardians fell in that battle, but Pyron's name, along with that of his frenzied brethren, resounded across the continent. None dare challenge them without good cause.",
+			"name": "Guard Piron",
+			"specialty": {
+				"description" : "{Ethereal Guardians}\r\n\r\nIncreases the Attack and Defense skills of any Ethereal Guardians or Eternal Guardian for each level attained after 4th level.",
+				"tooltip" : "Creature bonus: Ethereal Guardians",
+				"name" : "Ethereal Guardians"
+			}
+		}
+	}
+}

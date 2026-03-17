@@ -1,0 +1,46 @@
+{
+	"cradle_nightElyon": {
+		"army": [
+			{
+				"creature": "cradle_lvl1",
+				"max": 25,
+				"min": 15
+			},
+			{
+				"creature": "cradle_lvl2",
+				"max": 9,
+				"min": 7
+			},
+			{
+				"creature": "cradle_lvl3",
+				"max" : 5,
+				"min" : 3
+			}
+		],
+		"female": false,
+		"class": "cradle_soulguide",
+		"images": {
+			"large": "cradle/heroes/nightElyon/nightElyonB.bmp",
+			"small": "cradle/heroes/nightElyon/nightElyonS.bmp",
+			"specialtyLarge": "cradle/heroes/nightElyon/nightElyonSpecB.bmp",
+			"specialtySmall": "cradle/heroes/nightElyon/nightElyonSpecS.bmp"
+		},
+		"skills":
+		[
+			{ "skill" : "resistance", "level": "basic" },
+			{ "skill" : "logistics", "level": "basic" }
+		],
+		"specialty" : {
+			"secondary" : "logistics"
+		},
+		"texts": {
+			"biography": "Nimble sleepwalkers have guarded the lands of eternal night since its dawn in mortal lands. No one knows their depths better than these peaceful beings. It was not without reason that Elyon Calm Night earned the name of Cradle, for he has repeatedly proven his devotion to the cities of eternity, providing their defenders with information on the goings-on of all the realms and on every creature that has crossed their sacred borders with impunity.",
+			"name": "Night Elyon",
+			"specialty": {
+				"description" : "{Logistics}\r\n\r\nReceives a 5% per level bonus to Logistics skill percentage.",
+				"tooltip" : "Skill bonus: Logistics",
+				"name" : "Logistics"
+			}
+		}
+	}
+}

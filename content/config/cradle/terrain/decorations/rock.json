@@ -1,0 +1,41 @@
+{
+	"core:rock" : {
+		"types" : {
+			"nightStoneRocks" : {
+				"name" : "Rocks",
+				"templates" : {
+					"nightStone_reROC7" : {
+						"animation" : "cradle/terrain/Rock1",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "nightStone" ]
+				    	},
+					"nightStone_reROC8" : {
+						"animation" : "cradle/terrain/Rock2",
+						"mask" : [ "VV", "BB" ],
+						"allowedTerrains": [ "nightStone" ]
+				    	},
+					"nightStone_reROC9" : {
+						"animation" : "cradle/terrain/Rock3",
+						"mask" : [ "VV", "BB" ],
+						"allowedTerrains": [ "nightStone" ]
+				    	},
+					"nightStone_reROC10" : {
+						"animation" : "cradle/terrain/Rock4",
+						"mask" : [ "VV", "BB" ],
+						"allowedTerrains": [ "nightStone" ]
+				    	},
+					"nightStone_reROC11" : {
+						"animation" : "cradle/terrain/Rock5",
+						"mask" : [ "VVBV", "VBBB" ],
+						"allowedTerrains": [ "nightStone" ]
+				    	},
+					"nightStone_reROC12" : {
+						"animation" : "cradle/terrain/Rock6",
+						"mask" : [ "VVVV", "BBBB" ],
+						"allowedTerrains": [ "nightStone" ]
+				    	}
+				}
+			}
+		}
+	}
+}

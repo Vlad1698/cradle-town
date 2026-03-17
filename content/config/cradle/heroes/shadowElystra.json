@@ -1,0 +1,50 @@
+{
+	"cradle_shadowElystra": {
+		"army": [
+			{
+				"creature": "cradle_lvl1",
+				"max": 25,
+				"min": 15
+			},
+			{
+				"creature": "cradle_lvl2",
+				"max": 9,
+				"min": 7
+			},
+			{
+				"creature": "cradle_lvl2",
+				"max" : 9,
+				"min" : 7
+			}
+		],
+		"female": true,
+		"class": "cradle_oneiroguard",
+		"images": {
+			"large": "cradle/heroes/shadowElystra/shadowElystraB.bmp",
+			"small": "cradle/heroes/shadowElystra/shadowElystraS.bmp",
+			"specialtyLarge": "cradle/heroes/shadowElystra/shadowElystraSpecB.png",
+			"specialtySmall": "cradle/heroes/shadowElystra/shadowElystraSpecS.png"
+		},
+		"spellbook" :
+		[
+			"stoneSkin" 
+		],
+		"skills":
+		[
+			{ "skill" : "resistance", "level": "basic" },
+			{ "skill" : "diplomacy", "level": "basic" }
+		],
+		"specialty" : {
+			"creature" : "cradle_lvl2"
+		},
+		"texts": {
+			"biography": "The domineering noctra named Elystra never stood out from her sisters, despite possessing a talent for sorcery from the moment of her creation. The fate of every being guarding the sacred path of the Cradle was predetermined by Horst from the moment of her birth. Apparently, Elystra's destiny was to lead one of the largest temples of quiet song, and under her watch, the Noctra found new inspiration to serve the universe.",
+			"name": "Shadow Elystra",
+			"specialty": {
+				"description" : "{Singing Noctras}\r\n\r\nIncreases the Attack and Defense skills of any Singing Noctras or Warts of Noctras for each level attained after 2nd level.",
+				"tooltip" : "Creature bonus: Singing Noctras",
+				"name" : "Singing Noctras"
+			}
+		}
+	}
+}

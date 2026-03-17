@@ -1,0 +1,118 @@
+{
+	"cradle_lvl8": {
+		"name": {
+			"singular": "Lord of the Stars",
+			"plural": "Lords of the Stars"
+		},
+		"level": 8,
+		"special": false,
+		"faction": "cradle",
+		"cost": {
+			"wood": 0,
+			"mercury": 0,
+			"ore": 0,
+			"sulfur": 0,
+			"crystal": 10,
+			"gems": 0,
+			"gold": 11000
+		},
+		"fightValue": 16500,
+		"aiValue": 30200,
+		"growth": 22,
+		"attack": 30,
+		"shots" : 10,
+		"defense": 16,
+		"hitPoints": 550,
+		"speed": 15,
+		"damage": {
+			"min": 30,
+			"max": 40
+		},
+		"spellPoints": 0,
+		"advMapAmount": {
+			"max": 11,
+			"min": 4
+		},
+		"doubleWide": false,
+		"abilities": {
+			"teleports" :
+			{
+				"type" : "FLYING",
+				"subtype" : "movementTeleporting"
+			},
+			"Shoot": 
+			{
+				"type": "SHOOTER"
+			},
+			"StarEff" : 
+			{
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "spell.cradle_comet"
+			},
+			"mindImmun" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"nonLiving" : 
+			{
+				"type" : "NON_LIVING"
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"castsIce" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.cradle_starfall",
+				"val" : 3
+			},
+			"castsCount" :
+			{
+				"type" : "CASTS",
+				"val" : 2
+			},
+		},
+		"hasDoubleWeek": false,
+		"graphics": {
+			"animation": "cradle/creatures/battle/lvl8.def",
+			"map": "cradle/creatures/adventure/lvl8.def",
+			"iconSmall": "cradle/creatures/icon/lvl8.bmp",
+			"iconLarge": "cradle/creatures/portrait/lvl8.bmp",
+			"timeBetweenFidgets": 1.00,
+			"animationTime": {
+				"walk": 1,
+				"idle": 10.00,
+				"attack": 1
+			},
+			"missile": {
+				"attackClimaxFrame": 5,
+				"projectile": "cradle/projectiles/inv_shot.def",
+				"offset": {
+					"upperX": 0,
+					"upperY": 0,
+					"middleX": 0,
+					"middleY": 0,
+					"lowerX": -5,
+					"lowerY": 20
+				},
+				"frameAngles": [
+					-90,
+					-45,
+					0,
+					45,
+					90
+				]
+			}
+		},
+		"sound": {
+			"attack": "cradle/LVL8ATTK.wav",
+			"defend": "cradle/STARREIN.wav",
+			"killed": "cradle/LVL8DIE.wav",
+			"wince": "FAERWNCE.wav",
+			"shoot": "cradle/LVL8ATTK.wav",
+			"startMoving": "cradle/LVL8START.wav",
+			"endMoving": "cradle/LVL8START.wav"
+		}
+	}
+}

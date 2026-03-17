@@ -1,0 +1,57 @@
+{
+	"cradle_fogNoctus": {
+		"army": [
+			{
+				"creature": "cradle_lvl1",
+				"max": 25,
+				"min": 15
+			},
+			{
+				"creature": "cradle_lvl2",
+				"max": 9,
+				"min": 7
+			},
+			{
+				"creature": "cradle_lvl3",
+				"max" : 5,
+				"min" : 3
+			}
+		],
+		"female": false,
+		"class": "cradle_oneiroguard",
+		"images": {
+			"large": "cradle/heroes/fogNoctus/fogNoctusB.bmp",
+			"small": "cradle/heroes/fogNoctus/fogNoctusS.bmp",
+			"specialtyLarge": "cradle/heroes/fogNoctus/fogNoctusSpecB.bmp",
+			"specialtySmall": "cradle/heroes/fogNoctus/fogNoctusSpecS.bmp"
+		},
+		"spellbook" :
+		[
+			"iceBolt" 
+		],
+		"skills":
+		[
+			{ "skill" : "resistance", "level": "basic" },
+			{ "skill" : "sorcery", "level": "basic" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"iceBolt" : {
+					"subtype" : "spell.iceBolt",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		},
+		"texts": {
+			"biography": "More than a hundred years have passed since Noctus found himself within the walls of the Cradle Sanctuary, beginning his journey as a star-conjurer. Although he failed to attain the level of a soothsayer due to his uncontrolled mind, his journey as an oneiroguard has only just begun. Noctus, earning the name Night Mist, has become a formidable shield, protecting the realms of night from those who would seek to profit from its riches.",
+			"name": "Fog Noctus",
+			"specialty": {
+				"description" : "{Ice Bolt}\r\n\r\nCasts Ice Bolt with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
+				"tooltip" : "Spell bonus: Ice Bolt",
+				"name" : "Ice Bolt"
+			}
+		}
+	}
+}

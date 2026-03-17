@@ -1,0 +1,90 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"cradle_quietRuins" : 
+			{
+				"name" : "Quiet ruins",
+				"templates" : {
+					"base" : {
+						"animation" : "cradle/map/bankB.def",
+						"visitableFrom" : [ "+++", "+++", "+++" ],
+						"mask" : [ "VVVVVV", "VVVVVV", "VVVVVV",
+								   "VVVVVV", "VVBBBB", "VBBABV" ],
+						"allowedTerrains":["nightStone"]
+					}
+				},
+				"rmg" : {
+					"value" : 1500,
+					"rarity" : 100,
+					"zoneLimit" : 1
+				},
+				"blockedVisitable" : false,
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectPlayer",
+				"guardsLayout" : "creatureBankWide",
+				"rewards": [
+					{
+						"appearChance": { "min": 0, "max": 30 },
+						"guards": [
+							{ "amount": 15, "type" : "cradle_lvl1" },
+							{ "amount": 15, "type" : "cradle_lvl1" },
+							{ "amount": 10, "type" : "cradle_lvl3" },
+							{ "amount": 10, "type" : "cradle_lvl3" },
+							{ "amount": 10, "type" : "cradle_lvl3" },
+							{ "amount": 15, "type" : "cradle_lvl1" }
+						],
+						"resources": {
+							"gold" : 3000
+						}
+					},
+					{
+						"appearChance": { "min": 30, "max": 60 },
+						"guards": [
+							{ "amount": 20, "type" : "cradle_lvl1up" },
+							{ "amount": 20, "type" : "cradle_lvl1" },
+							{ "amount": 12, "type" : "cradle_lvl3up" },
+							{ "amount": 12, "type" : "cradle_lvl3" },
+							{ "amount": 12, "type" : "cradle_lvl3" },
+							{ "amount": 20, "type" : "cradle_lvl1" }
+						],
+						"resources": {
+							"gold" : 5000
+						}
+					},
+					{
+						"appearChance": { "min": 60, "max": 90 },
+						"guards": [
+							{ "amount": 25, "type" : "cradle_lvl1up" },
+							{ "amount": 25, "type" : "cradle_lvl1" },
+							{ "amount": 15, "type" : "cradle_lvl3up" },
+							{ "amount": 15, "type" : "cradle_lvl3" },
+							{ "amount": 15, "type" : "cradle_lvl3up" },
+							{ "amount": 25, "type" : "cradle_lvl1up" }
+						],
+						"resources": {
+							"gold" : 7000
+						}
+					},
+					{
+						"appearChance": { "min": 90, "max": 100 },
+						"guards": [
+							{ "amount": 35, "type" : "cradle_lvl1up" },
+							{ "amount": 35, "type" : "cradle_lvl1up" },
+							{ "amount": 20, "type" : "cradle_lvl3up" },
+							{ "amount": 20, "type" : "cradle_lvl3up" },
+							{ "amount": 20, "type" : "cradle_lvl3up" },
+							{ "amount": 35, "type" : "cradle_lvl1up" }
+						],
+						"resources": {
+							"gold" : 10000
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"core:hillFort" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"nightStone_hillFort" : {
+						"animation" : "cradle/terrain/hillFort",
+						"visitableFrom" : ["---", "-+-", "+++"],
+						"mask" : ["VVV", "VBB", "VBA"],
+						"allowedTerrains" : ["nightStone"]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"cradle_dreamMelanis": {
+		"army": [
+			{
+				"creature": "cradle_lvl1",
+				"max": 25,
+				"min": 15
+			},
+			{
+				"creature": "cradle_lvl2",
+				"max": 9,
+				"min": 7
+			},
+			{
+				"creature": "cradle_lvl3",
+				"max" : 5,
+				"min" : 3
+			}
+		],
+		"female": false,
+		"class": "cradle_oneiroguard",
+		"images": {
+			"large": "cradle/heroes/dreamMelanis/dreamMelanisB.bmp",
+			"small": "cradle/heroes/dreamMelanis/dreamMelanisS.bmp",
+			"specialtyLarge": "cradle/heroes/dreamMelanis/dreamMelanisSpecB.bmp",
+			"specialtySmall": "cradle/heroes/dreamMelanis/dreamMelanisSpecS.bmp"
+		},
+		"spellbook" :
+		[
+			"shield" 
+		],
+		"skills":
+		[
+			{ "skill" : "resistance", "level": "basic" },
+			{ "skill" : "sorcery", "level": "basic" }
+		],
+		"specialty" : {
+			"secondary" : "sorcery"
+		},
+		"texts": {
+			"biography": "One of the most talented Oneiroshards to emerge into the shattered reality from beyond the veil separating space and the realms of eternity, Melanis possesses considerable knowledge of the universe and is capable of harnessing the power of his essence, bestowed upon him by Horst himself, to the highest level. Melanis Dream of Eternity is a skilled sorcerer in sorcery.",
+			"name": "Dream Melanis",
+			"specialty": {
+				"description" : "{Sorcery}\r\n\r\nReceives a 5% per level bonus to Sorcery skill percentage.",
+				"tooltip" : "Skill bonus: Sorcery",
+				"name" : "Sorcery"
+			}
+		}
+	}
+}
