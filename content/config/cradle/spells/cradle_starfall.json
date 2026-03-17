@@ -1,15 +1,15 @@
 {
 	"cradle_starfall" : {
 		"type" : "combat",
-		"name": "Star Fall",
+		"name" : "Star Fall",
 		"school" : {
-			"air": true,
-			"earth": false,
-			"fire": false,
-			"water": false
+			"air" : true,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
 		},
-		"level": 5,
-		"power": 15,
+		"level" : 5,
+		"power" : 15,
 		"defaultGainChance" : 0,
 		"gainChance" : {
 			"cradle" : 30,
@@ -47,7 +47,7 @@
 		},
 
 		"sounds" : {
-			"cast": "cradle/STARREIN.wav"
+			"cast" : "cradle/STARREIN.wav"
 		},
 		"targetType" : "CREATURE",
 
@@ -67,7 +67,7 @@
 				"power" : 25
 			},
 			"none" : {
-				"description" : "{Star fall}\n\nDeals damage to all creatures in the targeted area (7 hexes) equal to (Power*25)+25.",
+				"description" : "{Star fall}\n\nDeals damage to all creatures in the targeted area (7 hexes) equal to (Power*25)+25."
 			},
 			"basic" : {
 				"description" : "{Basic Star Fall}\n\nSummon meteorites and contribute to range effects.\n"

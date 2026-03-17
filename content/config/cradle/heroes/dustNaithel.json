@@ -1,42 +1,47 @@
 {
-	"cradle_dustNaithel": {
-		"army": [
+	"cradle_dustNaithel" : {
+		"army" : [
 			{
-				"creature": "cradle_lvl1",
-				"max": 25,
-				"min": 15
+				"creature" : "cradle_lvl1",
+				"max" : 25,
+				"min" : 15
 			},
 			{
-				"creature": "cradle_lvl2",
-				"max": 9,
-				"min": 7
+				"creature" : "cradle_lvl2",
+				"max" : 9,
+				"min" : 7
 			},
 			{
-				"creature": "cradle_lvl3",
+				"creature" : "cradle_lvl3",
 				"max" : 6,
 				"min" : 3
 			}
 		],
-		"female": false,
-		"class": "cradle_soulguide",
-		"images": {
-			"large": "cradle/heroes/dustNaithel/dustNaithelB.bmp",
-			"small": "cradle/heroes/dustNaithel/dustNaithelS.bmp",
-			"specialtyLarge": "cradle/heroes/dustNaithel/dustNaithelSpecB.png",
-			"specialtySmall": "cradle/heroes/dustNaithel/dustNaithelSpecS.png"
+		"female" : false,
+		"class" : "cradle_soulguide",
+		"images" : {
+			"large" : "cradle/heroes/dustNaithel/dustNaithelB.bmp",
+			"small" : "cradle/heroes/dustNaithel/dustNaithelS.bmp",
+			"specialtyLarge" : "cradle/heroes/dustNaithel/dustNaithelSpecB.png",
+			"specialtySmall" : "cradle/heroes/dustNaithel/dustNaithelSpecS.png"
 		},
-		"skills":
-		[
-			{ "skill" : "resistance", "level": "basic" },
-			{ "skill" : "offence", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "resistance",
+				"level" : "basic"
+			},
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"creature" : "cradle_lvl6"
 		},
-		"texts": {
-			"biography": "There's no one in the lands of eternal night more terrifying than Naithel Gravedust, who makes even the most inveterate necromancer tremble with fear. Rumor has it that this lord of mourners long ago turned against Horst himself, earning him the eternal punishment of watching over the most evil and lost souls, forced to walk alongside them on the path of great purification. Or, when the time comes, to harness their power to don the skin of a fearsome punisher.",
-			"name": "Dust Naithel",
-			"specialty": {
+		"texts" : {
+			"biography" : "There's no one in the lands of eternal night more terrifying than Naithel Gravedust, who makes even the most inveterate necromancer tremble with fear. Rumor has it that this lord of mourners long ago turned against Horst himself, earning him the eternal punishment of watching over the most evil and lost souls, forced to walk alongside them on the path of great purification. Or, when the time comes, to harness their power to don the skin of a fearsome punisher.",
+			"name" : "Dust Naithel",
+			"specialty" : {
 				"description" : "{Sorcery}\r\n\r\nIncreases the Attack and Defense skills of any Mourners or Dark Mourners for each level attained after 6th level.",
 				"tooltip" : "Creature bonus: Mourners",
 				"name" : "Mourners"

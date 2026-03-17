@@ -1,42 +1,47 @@
 {
-	"cradle_kalinor": {
-		"army": [
+	"cradle_kalinor" : {
+		"army" : [
 			{
-				"creature": "cradle_lvl1",
-				"max": 25,
-				"min": 15
+				"creature" : "cradle_lvl1",
+				"max" : 25,
+				"min" : 15
 			},
 			{
-				"creature": "cradle_lvl2",
-				"max": 9,
-				"min": 7
+				"creature" : "cradle_lvl2",
+				"max" : 9,
+				"min" : 7
 			},
 			{
-				"creature": "cradle_lvl3",
+				"creature" : "cradle_lvl3",
 				"max" : 6,
 				"min" : 3
 			}
 		],
-		"female": false,
-		"class": "cradle_soulguide",
-		"images": {
-			"large": "cradle/heroes/kalinor/kalinorB.bmp",
-			"small": "cradle/heroes/kalinor/kalinorS.bmp",
-			"specialtyLarge": "cradle/heroes/kalinor/kalinorSpecB.bmp",
-			"specialtySmall": "cradle/heroes/kalinor/kalinorSpecS.bmp"
+		"female" : false,
+		"class" : "cradle_soulguide",
+		"images" : {
+			"large" : "cradle/heroes/kalinor/kalinorB.bmp",
+			"small" : "cradle/heroes/kalinor/kalinorS.bmp",
+			"specialtyLarge" : "cradle/heroes/kalinor/kalinorSpecB.bmp",
+			"specialtySmall" : "cradle/heroes/kalinor/kalinorSpecS.bmp"
 		},
-		"skills":
-		[
-			{ "skill" : "resistance", "level": "basic" },
-			{ "skill" : "offence", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "resistance",
+				"level" : "basic"
+			},
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"secondary" : "offence"
 		},
-		"texts": {
-			"biography": "A true representative of the realm of eternity, born in its boundless starry expanses of icy emptiness, Kalinor has adopted all the most essential traits of the night reapers, essential to fulfilling their duty at the border of two realities. The enemies of the Cradle will have no peace if they incur the wrath of his scythe, capable of severing souls from bodies, just as they will have no peace after death, in the hands of the cold-blooded reaper. As a close confidant of Horst himself, he is ready to once again pass through the gates of eternity to serve a greater purpose.",
-			"name": "Kalinor",
-			"specialty": {
+		"texts" : {
+			"biography" : "A true representative of the realm of eternity, born in its boundless starry expanses of icy emptiness, Kalinor has adopted all the most essential traits of the night reapers, essential to fulfilling their duty at the border of two realities. The enemies of the Cradle will have no peace if they incur the wrath of his scythe, capable of severing souls from bodies, just as they will have no peace after death, in the hands of the cold-blooded reaper. As a close confidant of Horst himself, he is ready to once again pass through the gates of eternity to serve a greater purpose.",
+			"name" : "Kalinor",
+			"specialty" : {
 				"description" : "{Offense}\r\n\r\nReceives a 5% per level bonus to Offense skill percentage.",
 				"tooltip" : "Skill bonus: Offense",
 				"name" : "Offense"

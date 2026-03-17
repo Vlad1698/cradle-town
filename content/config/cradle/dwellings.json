@@ -1,132 +1,171 @@
 {
-	"core:creatureGeneratorCommon": {
-		"types": {
-			"cradle_creature_lvl1_dwelling": {
-				"name": "Ethereal Fountain",
-				"creatures": [
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"cradle_creature_lvl1_dwelling" : {
+				"name" : "Ethereal Fountain",
+				"creatures" : [
 					[
 						"cradle_lvl1"
 					]
 				],
-				"templates": {
-					"default": {
-						"animation": "cradle/map/dwel1",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+				"templates" : {
+					"default" : {
+						"animation" : "cradle/map/dwel1",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				}
 			},
-			"cradle_creature_lvl2_dwelling": {
-				"name": "Temple of Silent Song",
-				"creatures": [
+			"cradle_creature_lvl2_dwelling" : {
+				"name" : "Temple of Silent Song",
+				"creatures" : [
 					[
 						"cradle_lvl2"
 					]
 				],
-				"templates": {
-					"default": {
-						"animation": "cradle/map/dwel2",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+				"templates" : {
+					"default" : {
+						"animation" : "cradle/map/dwel2",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				}
 			},
-			"cradle_creature_lvl3_dwelling": {
-				"name": "Shimmering Tree",
-				"creatures": [
+			"cradle_creature_lvl3_dwelling" : {
+				"name" : "Shimmering Tree",
+				"creatures" : [
 					[
 						"cradle_lvl3"
 					]
 				],
-				"templates": {
-					"default": {
-						"animation": "cradle/map/dwel3",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+				"templates" : {
+					"default" : {
+						"animation" : "cradle/map/dwel3",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				}
 			},
-			"cradle_creature_lvl4_dwelling": {
-				"name": "Portal of Return",
-				"creatures": [
+			"cradle_creature_lvl4_dwelling" : {
+				"name" : "Portal of Return",
+				"creatures" : [
 					[
 						"cradle_lvl4"
 					]
 				],
-				"templates": {
-					"default": {
-						"animation": "cradle/map/dwel4",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+				"templates" : {
+					"default" : {
+						"animation" : "cradle/map/dwel4",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				}
 			},
-			"cradle_creature_lvl5_dwelling": {
-				"name": "Star Sanctuary",
-				"creatures": [
+			"cradle_creature_lvl5_dwelling" : {
+				"name" : "Star Sanctuary",
+				"creatures" : [
 					[
 						"cradle_lvl5"
 					]
 				],
-				"templates": {
-					"default": {
-						"animation": "cradle/map/dwel5",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+				"templates" : {
+					"default" : {
+						"animation" : "cradle/map/dwel5",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				}
 			},
-			"cradle_creature_lvl5a_dwelling": {
-				"name": "Moon Monastery",
-				"creatures": [
+			"cradle_creature_lvl5a_dwelling" : {
+				"name" : "Moon Monastery",
+				"creatures" : [
 					[
 						"cradle_lvl5a"
 					]
 				],
-				"templates": {
-					"default": {
-						"animation": "cradle/map/dwel5a",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+				"templates" : {
+					"default" : {
+						"animation" : "cradle/map/dwel5a",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				}
 			},
-			"cradle_creature_lvl6_dwelling": {
-				"name": "Cave of the Damned",
-				"creatures": [
+			"cradle_creature_lvl6_dwelling" : {
+				"name" : "Cave of the Damned",
+				"creatures" : [
 					[
 						"cradle_lvl6"
 					]
 				],
-				"templates": {
-					"default": {
-						"animation": "cradle/map/dwel6",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+				"templates" : {
+					"default" : {
+						"animation" : "cradle/map/dwel6",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				}
 			},
-			"cradle_creature_lvl7_dwelling": {
-				"name": "Palace of Eternity",
-				"creatures": [
+			"cradle_creature_lvl7_dwelling" : {
+				"name" : "Palace of Eternity",
+				"creatures" : [
 					[
 						"cradle_lvl7"
 					]
 				],
-				"templates": {
-					"default": {
-						"animation": "cradle/map/dwel7",
-						"mask" : [ "VVV", "VVB", "VBA" ]
+				"templates" : {
+					"default" : {
+						"animation" : "cradle/map/dwel7",
+						"mask" : [
+							"VVV",
+							"VVB",
+							"VBA"
+						]
 					}
 				}
 			},
-			"cradle_creature_lvl8_dwelling": {
-				"name": "Stargate",
-				"creatures": [
+			"cradle_creature_lvl8_dwelling" : {
+				"name" : "Stargate",
+				"creatures" : [
 					[
 						"cradle_lvl8"
 					]
 				],
 				"guards" : [
-                   			 { "amount" : 3, "type" : "cradle_lvl8" }
-                		],
-				"templates": {
-					"default": {
-						"animation": "cradle/map/dwel8",
-						"mask" : [ "VVV", "VBV", "VAB" ]
+					{
+						"amount" : 3,
+						"type" : "cradle_lvl8"
+					}
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "cradle/map/dwel8",
+						"mask" : [
+							"VVV",
+							"VBV",
+							"VAB"
+						]
 					}
 				}
 			}

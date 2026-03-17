@@ -1,8 +1,13 @@
 {
-    "basepath" : "cradle/frames/",
-	"images" :
-	[
-	    { "frame" : 48, "file" : "dwel5alt"},
-		{ "frame" : 55, "file" : "dwel5altup"}
+	"basepath" : "cradle/frames/",
+	"images" : [
+		{
+			"frame" : 48,
+			"file" : "dwel5alt"
+		},
+		{
+			"frame" : 55,
+			"file" : "dwel5altup"
+		}
 	]
 }

@@ -12,9 +12,8 @@
 			"effects" : {
 				"main" : {
 					"type" : "MAGIC_MIRROR",
-						"valueType" : "INDEPENDENT_MAX",
-						"duration" : "N_TURNS"
-							
+					"valueType" : "INDEPENDENT_MAX",
+					"duration" : "N_TURNS"
 				}
 			}
 		},

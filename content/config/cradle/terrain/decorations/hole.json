@@ -5,8 +5,12 @@
 				"templates" : {
 					"nightStoneHole" : {
 						"animation" : "cradle/terrain/hole",
-						"mask" : [ "V" ],
-						"allowedTerrains": [ "nightStone" ]
+						"mask" : [
+							"V"
+						],
+						"allowedTerrains" : [
+							"nightStone"
+						]
 					}
 				}
 			}

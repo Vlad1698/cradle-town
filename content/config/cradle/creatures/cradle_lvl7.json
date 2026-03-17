@@ -1,75 +1,74 @@
 {
-	"cradle_lvl7": {
-		"name": {
-			"singular": "Night Reaper",
-			"plural": "Night Reapers"
+	"cradle_lvl7" : {
+		"name" : {
+			"singular" : "Night Reaper",
+			"plural" : "Night Reapers"
 		},
-		"upgrades": [
+		"upgrades" : [
 			"cradle_lvl7up"
 		],
-		"level": 7,
-		"special": false,
-		"faction": "cradle",
-		"cost": {
-			"wood": 0,
-			"mercury": 0,
-			"ore": 0,
-			"sulfur": 0,
-			"crystal": 1,
-			"gems": 0,
-			"gold": 2400
+		"level" : 7,
+		"special" : false,
+		"faction" : "cradle",
+		"cost" : {
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 1,
+			"gems" : 0,
+			"gold" : 2400
 		},
-		"fightValue": 3800,
-		"aiValue": 5150,
-		"growth": 1,
-		"attack": 20,
-		"defense": 16,
-		"hitPoints": 180,
-		"speed": 12,
-		"damage": {
-			"min": 30,
-			"max": 40
+		"fightValue" : 3800,
+		"aiValue" : 5150,
+		"growth" : 1,
+		"attack" : 20,
+		"defense" : 16,
+		"hitPoints" : 180,
+		"speed" : 12,
+		"damage" : {
+			"min" : 30,
+			"max" : 40
 		},
-		"spellPoints": 0,
-		"advMapAmount": {
-			"max": 11,
-			"min": 4
+		"spellPoints" : 0,
+		"advMapAmount" : {
+			"max" : 11,
+			"min" : 4
 		},
-		"doubleWide": false,
-		"abilities": {
+		"doubleWide" : false,
+		"abilities" : {
 			"canFly" : {
 				"type" : "FLYING"
 			},
 			"mindImmun" : {
 				"type" : "MIND_IMMUNITY"
 			},
-			"nonLiving" : 
-			{
+			"nonLiving" : {
 				"type" : "NON_LIVING"
 			},
 			"circularStrike" : {
 				"type" : "ATTACKS_ALL_ADJACENT"
 			}
 		},
-		"hasDoubleWeek": false,
-		"graphics": {
-			"animation": "cradle/creatures/battle/lvl7.def",
-			"map": "cradle/creatures/adventure/lvl7.def",
-			"iconSmall": "cradle/creatures/icon/lvl7.bmp",
-			"iconLarge": "cradle/creatures/portrait/lvl7.bmp",
-			"timeBetweenFidgets": 1.00,
-			"animationTime": {
-				"walk": 1,
-				"idle": 10.00,
-				"attack": 1
+		"hasDoubleWeek" : false,
+		"graphics" : {
+			"animation" : "cradle/creatures/battle/lvl7.def",
+			"map" : "cradle/creatures/adventure/lvl7.def",
+			"iconSmall" : "cradle/creatures/icon/lvl7.bmp",
+			"iconLarge" : "cradle/creatures/portrait/lvl7.bmp",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1
 			}
 		},
-		"sound": {
-			"attack": "cradle/LVL7ATTK.wav",
-			"defend": "cradle/LVL7ATTK.wav",
-			"killed": "cradle/LVL7DIE.wav",
-			"move": "cradle/LVL7WALK.wav",
-			"wince": "cradle/LVL7DMG.wav"
+		"sound" : {
+			"attack" : "cradle/LVL7ATTK.wav",
+			"defend" : "cradle/LVL7ATTK.wav",
+			"killed" : "cradle/LVL7DIE.wav",
+			"move" : "cradle/LVL7WALK.wav",
+			"wince" : "cradle/LVL7DMG.wav"
 		}
 	}
 }

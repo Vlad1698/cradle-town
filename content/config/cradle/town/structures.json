@@ -1,4 +1,4 @@
-{ 
+{
 	"cradle" : {
 		"town" : {
 			"structures" : {
@@ -65,7 +65,7 @@
 					"x" : 311,
 					"y" : 8,
 					"z" : 0
-				},				
+				},
 				"castle" : {
 					"animation" : "cradle/buildings/castle",
 					"area" : "cradle/town/area/castle",
@@ -105,7 +105,7 @@
 					"x" : 0,
 					"y" : 151,
 					"z" : 0
-				},				
+				},
 				"blacksmith" : {
 					"animation" : "cradle/buildings/blacksmith",
 					"area" : "cradle/town/area/blacksmith",
@@ -137,7 +137,7 @@
 					"x" : 480,
 					"y" : 302,
 					"z" : 3
-				},			
+				},
 				"dwellingUpLvl1" : {
 					"animation" : "cradle/buildings/dwel1up",
 					"area" : "cradle/town/area/dwel1",
@@ -277,7 +277,7 @@
 					"x" : 44,
 					"y" : 0,
 					"z" : 1
-				},	
+				},
 				"dwellingUpLvl7" : {
 					"animation" : "cradle/buildings/dwel7up",
 					"area" : "cradle/town/area/dwel7up",
@@ -293,7 +293,7 @@
 					"x" : 165,
 					"y" : 192,
 					"z" : 4
-				},		
+				},
 				"special2" : {
 					"animation" : "cradle/buildings/spec2",
 					"area" : "cradle/town/area/spec2",
@@ -301,7 +301,7 @@
 					"x" : 248,
 					"y" : 6,
 					"z" : 1
-				},		
+				},
 				"grail" : {
 					"animation" : "cradle/buildings/grail",
 					"area" : "cradle/town/area/grail",
@@ -309,22 +309,24 @@
 					"x" : 528,
 					"y" : 0,
 					"z" : 0
-				},	
-				"ship" :            { 
+				},
+				"ship" : {
 					"animation" : "cradle/buildings/ship.def",
 					"area" : "cradle/town/area/ship.bmp",
 					"border" : "cradle/town/border/ship.bmp",
 					"x" : 600,
-					"y" : 281, 
-					"z" : 4,    
-					"hidden" : true },
-				"shipyard" :        { 
+					"y" : 281,
+					"z" : 4,
+					"hidden" : true
+				},
+				"shipyard" : {
 					"animation" : "cradle/buildings/shipyard.def",
 					"area" : "cradle/town/area/shipyard.bmp",
-					"border" : "cradle/town/border/shipyard.bmp",     
-					"x" : 707, 
-					"y" : 281, 
-					"z" : 3 },
+					"border" : "cradle/town/border/shipyard.bmp",
+					"x" : 707,
+					"y" : 281,
+					"z" : 3
+				},
 				"animatedMoon" : {
 					"animation" : "cradle/buildings/fonMoon",
 					"x" : 97,

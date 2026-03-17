@@ -1,42 +1,47 @@
 {
-	"cradle_lumisa": {
-		"army": [
+	"cradle_lumisa" : {
+		"army" : [
 			{
-				"creature": "cradle_lvl1",
-				"max": 25,
-				"min": 15
+				"creature" : "cradle_lvl1",
+				"max" : 25,
+				"min" : 15
 			},
 			{
-				"creature": "cradle_lvl2",
-				"max": 12,
-				"min": 7
+				"creature" : "cradle_lvl2",
+				"max" : 12,
+				"min" : 7
 			},
 			{
-				"creature": "cradle_lvl3",
-				"max": 8,
-				"min": 6
+				"creature" : "cradle_lvl3",
+				"max" : 8,
+				"min" : 6
 			}
 		],
-		"female": true,
-		"class": "cradle_soulguide",
-		"images": {
-			"large": "cradle/heroes/lumisa/lumisaB.bmp",
-			"small": "cradle/heroes/lumisa/lumisaS.bmp",
-			"specialtyLarge": "cradle/heroes/lumisa/lumisaSpecB.png",
-			"specialtySmall": "cradle/heroes/lumisa/lumisaSpecS.png"
+		"female" : true,
+		"class" : "cradle_soulguide",
+		"images" : {
+			"large" : "cradle/heroes/lumisa/lumisaB.bmp",
+			"small" : "cradle/heroes/lumisa/lumisaS.bmp",
+			"specialtyLarge" : "cradle/heroes/lumisa/lumisaSpecB.png",
+			"specialtySmall" : "cradle/heroes/lumisa/lumisaSpecS.png"
 		},
-		"skills":
-		[
-			{ "skill" : "resistance", "level": "basic" },
-			{ "skill" : "leadership", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "resistance",
+				"level" : "basic"
+			},
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"creature" : "cradle_lvl3"
 		},
-		"texts": {
-			"biography": "Not everyone who finds their destiny in the Cradle is a pure-hearted Noctrian, a talented star-caster, or a night spirit trapped at the crossroads of the living and the afterlife. Lumisa was once an ordinary Erathian peasant who perished during an undead invasion of her village. While floating in the stream of souls, she was drawn to the light of the black harbingers, which managed to pull her out of the endless flow. Since then, she has found her place in the shimmering groves among these mystical creatures, who have embraced her as a kindred spirit. Even Lumisa herself doesn't understand where she got this gift of commanding the harbingers.",
-			"name": "Lumisa",
-			"specialty": {
+		"texts" : {
+			"biography" : "Not everyone who finds their destiny in the Cradle is a pure-hearted Noctrian, a talented star-caster, or a night spirit trapped at the crossroads of the living and the afterlife. Lumisa was once an ordinary Erathian peasant who perished during an undead invasion of her village. While floating in the stream of souls, she was drawn to the light of the black harbingers, which managed to pull her out of the endless flow. Since then, she has found her place in the shimmering groves among these mystical creatures, who have embraced her as a kindred spirit. Even Lumisa herself doesn't understand where she got this gift of commanding the harbingers.",
+			"name" : "Lumisa",
+			"specialty" : {
 				"description" : "{Black Harbingers}\r\n\r\nIncreases the Attack and Defense skills of any Black Harbingers or Ancient Harbingers for each level attained after 3rd level.",
 				"tooltip" : "Creature bonus: Black Harbingers",
 				"name" : "Black Harbingers"

@@ -1,86 +1,81 @@
-	{
-		"cradle_cmd": {
-			"name": {
-				"singular": "Shepherd of Dreams",
-				"plural": "Shepherds of Dreams"
-			},
-			"level": 0,
-			"special": true,
-			"faction": "cradle",
-			"cost": {
-				"wood": 0,
-				"mercury": 0,
-				"ore": 0,
-				"sulfur": 0,
-				"crystal": 0,
-				"gems": 0,
-				"gold": 150
-			},
-			"fightValue" : 150,
-			"aiValue" : 166,
-			"growth": 1,
-			"attack": 7,
-			"defense": 5,
-			"hitPoints": 45,
-			"speed": 6,
-			"damage": {
-				"min": 7,
-				"max": 14
-			},
-			"advMapAmount": {
-				"max": 18,
-				"min": 12
-			},
-			"doubleWide": false,
-			"abilities": {
-			"enemyDefence" :
-			{
+{
+	"cradle_cmd" : {
+		"name" : {
+			"singular" : "Shepherd of Dreams",
+			"plural" : "Shepherds of Dreams"
+		},
+		"level" : 0,
+		"special" : true,
+		"faction" : "cradle",
+		"cost" : {
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 150
+		},
+		"fightValue" : 150,
+		"aiValue" : 166,
+		"growth" : 1,
+		"attack" : 7,
+		"defense" : 5,
+		"hitPoints" : 45,
+		"speed" : 6,
+		"damage" : {
+			"min" : 7,
+			"max" : 14
+		},
+		"advMapAmount" : {
+			"max" : 18,
+			"min" : 12
+		},
+		"doubleWide" : false,
+		"abilities" : {
+			"enemyDefence" : {
 				"type" : "ENEMY_DEFENCE_REDUCTION",
 				"val" : 30
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"castsIce" :
-			{
+			"castsIce" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.bless",
 				"val" : 1
 			},
-			"castsCount" :
-			{
+			"castsCount" : {
 				"type" : "CASTS",
 				"val" : 3
 			},
 			"mindImmun" : {
 				"type" : "MIND_IMMUNITY"
 			},
-			"nonLiving" : 
-			{
+			"nonLiving" : {
 				"type" : "NON_LIVING"
 			}
-			},
-			"hasDoubleWeek": true,
-			"graphics": {
-				"animation": "cradle/creatures/battle/cmd.def",
-				"iconSmall": "cradle/creatures/icon/cmd.bmp",
-				"iconLarge": "cradle/creatures/portrait/cmd.bmp",
-				"timeBetweenFidgets": 1.00,
-				"animationTime": {
-					"walk": 0.5,
-					"idle": 10.00,
-					"attack": 1
-				}
-			},
-			"sound": {
-				"attack": "cradle/CMDATTK.wav",
-				"defend": "cradle/CMDSTART.wav",
-				"killed": "cradle/CMDDIE.wav",
-				"wince": "cradle/CMDDMG.wav",
-				"startMoving": "cradle/CMDSTART.wav",
-				"endMoving": "cradle/CMDFINISH.wav"
+		},
+		"hasDoubleWeek" : true,
+		"graphics" : {
+			"animation" : "cradle/creatures/battle/cmd.def",
+			"iconSmall" : "cradle/creatures/icon/cmd.bmp",
+			"iconLarge" : "cradle/creatures/portrait/cmd.bmp",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 0.5,
+				"idle" : 10.0,
+				"attack" : 1
 			}
+		},
+		"sound" : {
+			"attack" : "cradle/CMDATTK.wav",
+			"defend" : "cradle/CMDSTART.wav",
+			"killed" : "cradle/CMDDIE.wav",
+			"wince" : "cradle/CMDDMG.wav",
+			"startMoving" : "cradle/CMDSTART.wav",
+			"endMoving" : "cradle/CMDFINISH.wav"
 		}
 	}
+}

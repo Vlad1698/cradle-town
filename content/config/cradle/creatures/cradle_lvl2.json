@@ -1,73 +1,72 @@
 {
-	"cradle_lvl2": {
-		"name": {
-			"singular": "Singing Noctra",
-			"plural": "Singing Noctras"
+	"cradle_lvl2" : {
+		"name" : {
+			"singular" : "Singing Noctra",
+			"plural" : "Singing Noctras"
 		},
-		"upgrades": [
+		"upgrades" : [
 			"cradle_lvl2up"
 		],
-		"level": 2,
-		"special": false,
-		"faction": "cradle",
-		"cost": {
-			"wood": 0,
-			"mercury": 0,
-			"ore": 0,
-			"sulfur": 0,
-			"crystal": 0,
-			"gems": 0,
-			"gold": 120
+		"level" : 2,
+		"special" : false,
+		"faction" : "cradle",
+		"cost" : {
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 120
 		},
-		"fightValue": 145,
-		"aiValue": 155,
-		"growth": 9,
-		"attack": 6,
-		"defense": 5,
-		"hitPoints": 15,
-		"shots": 20,
-		"speed": 4,
-		"damage": {
-			"min": 2,
-			"max": 3
+		"fightValue" : 145,
+		"aiValue" : 155,
+		"growth" : 9,
+		"attack" : 6,
+		"defense" : 5,
+		"hitPoints" : 15,
+		"shots" : 20,
+		"speed" : 4,
+		"damage" : {
+			"min" : 2,
+			"max" : 3
 		},
-		"advMapAmount": {
-			"max": 32,
-			"min": 18
+		"advMapAmount" : {
+			"max" : 32,
+			"min" : 18
 		},
-		"doubleWide": false,
-"abilities": {
-	"spellImmuty" : {
-		"type" : "LEVEL_SPELL_IMMUNITY",
-		"val" : 2
-	},
-	"mindImmun" : {
-		"type" : "MIND_IMMUNITY"
-	},
-	"nonLiving" : {
-		"type" : "NON_LIVING"
-	}
-},
-		"hasDoubleWeek": true,
-		"graphics": {
-			"animation": "cradle/creatures/battle/lvl2.def",
-			"map": "cradle/creatures/adventure/lvl2.def",
-			"iconSmall": "cradle/creatures/icon/lvl2.bmp",
-			"iconLarge": "cradle/creatures/portrait/lvl2.bmp",
-			"timeBetweenFidgets": 1.00,
-			"animationTime": {
-				"walk": 1,
-				"idle": 10.00,
-				"attack": 1
+		"doubleWide" : false,
+		"abilities" : {
+			"spellImmuty" : {
+				"type" : "LEVEL_SPELL_IMMUNITY",
+				"val" : 2
+			},
+			"mindImmun" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"nonLiving" : {
+				"type" : "NON_LIVING"
 			}
 		},
-		"sound": 
-		{
-			"attack": "cradle/LVL2ATTK.wav",
-			"defend": "MONKDFND.wav",
-			"killed": "cradle/LVL2DIE.wav",
-			"move": "MONKMOVE.wav",
-			"wince": "cradle/LVL2DMG.wav"
+		"hasDoubleWeek" : true,
+		"graphics" : {
+			"animation" : "cradle/creatures/battle/lvl2.def",
+			"map" : "cradle/creatures/adventure/lvl2.def",
+			"iconSmall" : "cradle/creatures/icon/lvl2.bmp",
+			"iconLarge" : "cradle/creatures/portrait/lvl2.bmp",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1
+			}
+		},
+		"sound" : {
+			"attack" : "cradle/LVL2ATTK.wav",
+			"defend" : "MONKDFND.wav",
+			"killed" : "cradle/LVL2DIE.wav",
+			"move" : "MONKMOVE.wav",
+			"wince" : "cradle/LVL2DMG.wav"
 		}
 	}
 }

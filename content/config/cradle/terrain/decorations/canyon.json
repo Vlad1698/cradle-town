@@ -6,38 +6,65 @@
 				"templates" : {
 					"canyonnightStone01" : {
 						"animation" : "cradle/terrain/Crack1",
-						"mask" : [ "BBBB", "BBBB" ],
-						"allowedTerrains": [ "nightStone" ]
+						"mask" : [
+							"BBBB",
+							"BBBB"
+						],
+						"allowedTerrains" : [
+							"nightStone"
+						]
 					},
 					"canyonnightStone02" : {
 						"animation" : "cradle/terrain/Crack2",
-						"mask" : [ "BBB", "BBB","BBB" ],
-						"allowedTerrains": [ "nightStone" ]
+						"mask" : [
+							"BBB",
+							"BBB",
+							"BBB"
+						],
+						"allowedTerrains" : [
+							"nightStone"
+						]
 					},
 					"canyonnightStone03" : {
 						"animation" : "cradle/terrain/Crack3",
-						"mask" : [ "BB","BB" ],
-						"allowedTerrains": [ "nightStone" ]
+						"mask" : [
+							"BB",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"nightStone"
+						]
 					},
 					"canyonnightStone04" : {
 						"animation" : "cradle/terrain/Crack4",
-						"mask" : [ "BB","BB" ],
-						"allowedTerrains": [ "nightStone" ]
+						"mask" : [
+							"BB",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"nightStone"
+						]
 					},
 					"canyonnightStone05" : {
 						"animation" : "cradle/terrain/Crack5",
-						"mask" : [ "BB" ],
-						"allowedTerrains": [ "nightStone" ]
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"nightStone"
+						]
 					},
 					"canyonnightStone06" : {
 						"animation" : "cradle/terrain/Crack6",
-						"mask" : [ "BB" ],
-						"allowedTerrains": [ "nightStone" ]
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"nightStone"
+						]
 					}
 				}
 			}
-		}	
-	}	
+		}
+	}
 }
-	
-	

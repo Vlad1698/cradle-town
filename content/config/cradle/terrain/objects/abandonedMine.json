@@ -1,13 +1,23 @@
 {
-	"core:abandonedMine": {
-		"types": {
-			"mine": {
-				"templates": {
+	"core:abandonedMine" : {
+		"types" : {
+			"mine" : {
+				"templates" : {
 					"nightStone_abandonedMine" : {
 						"animation" : "cradle/terrain/mine",
-						"mask" : [ "VVVV", "VBBB", "VBAB"],
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains" : ["nightStone"]
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"nightStone"
+						]
 					}
 				}
 			}

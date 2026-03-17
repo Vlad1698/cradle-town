@@ -6,28 +6,48 @@
 				"templates" : {
 					"nightStoneStone01" : {
 						"animation" : "cradle/terrain/stone1",
-						"mask" : [ "VB" ],
-						"allowedTerrains": [ "nightStone" ]
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"nightStone"
+						]
 					},
 					"nightStoneStone02" : {
 						"animation" : "cradle/terrain/stone2",
-						"mask" : [ "VB" ],
-						"allowedTerrains": [ "nightStone" ]
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"nightStone"
+						]
 					},
 					"nightStoneStone03" : {
 						"animation" : "cradle/terrain/stone3",
-						"mask" : [ "BB" ],
-						"allowedTerrains": [ "nightStone" ]
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"nightStone"
+						]
 					},
 					"nightStoneStone04" : {
 						"animation" : "cradle/terrain/stone4",
-						"mask" : [ "VB" ],
-						"allowedTerrains": [ "nightStone" ]
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"nightStone"
+						]
 					},
 					"nightStoneStone05" : {
 						"animation" : "cradle/terrain/stone5",
-						"mask" : [ "BB" ],
-						"allowedTerrains": [ "nightStone" ]
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"nightStone"
+						]
 					}
 				}
 			}

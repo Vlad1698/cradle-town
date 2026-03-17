@@ -2,22 +2,38 @@
 	"core:riverDelta" : {
 		"types" : {
 			"object" : {
-				"templates" : {					
+				"templates" : {
 					"nightStoneDelt1" : {
 						"animation" : "cradle/terrain/river/nightStoneDelt.def",
-						"mask" : ["VVV","VVV","VVV"]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VVV"
+						]
 					},
 					"nightStoneDelt2" : {
 						"animation" : "cradle/terrain/river/nightStoneDelt2.def",
-						"mask" : ["VVV","VVV","VVV"]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VVV"
+						]
 					},
 					"nightStoneDelt3" : {
 						"animation" : "cradle/terrain/river/nightStoneDelt3.def",
-						"mask" : ["VVV","VVV","VVV"]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VVV"
+						]
 					},
 					"nightStoneDelt4" : {
 						"animation" : "cradle/terrain/river/nightStoneDelt4.def",
-						"mask" : ["VVV","VVV","VVV"]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VVV"
+						]
 					}
 				}
 			}

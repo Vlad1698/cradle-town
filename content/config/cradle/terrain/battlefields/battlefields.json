@@ -1,8 +1,8 @@
 {
-	"nightStone_back1": {
-			"graphics":  "cradle/Cursed1.bmp"
-		},
-	"nightStone_back2": {
-			"graphics":  "cradle/Cursed2.bmp"
-		}
+	"nightStone_back1" : {
+		"graphics" : "cradle/Cursed1.bmp"
+	},
+	"nightStone_back2" : {
+		"graphics" : "cradle/Cursed2.bmp"
+	}
 }

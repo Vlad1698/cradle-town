@@ -1,17 +1,27 @@
 {
-	"core:creatureBank" : 
-	{
-		"types" : 
-		{
-			"cradle_shiningPalace" : 
-			{
+	"core:creatureBank" : {
+		"types" : {
+			"cradle_shiningPalace" : {
 				"name" : "Shining Palace",
 				"templates" : {
-					"base" : { 
-						"animation" : "cradle/map/bankA.def", 
-						"visitableFrom" : [ "---", "+++", "+++" ], 
-						"mask" : [ "VVVVVV", "VVVVVV", "VVVVVV", "VVVBVV", "VBBBBB", "VBBABV" ],
-						"allowedTerrains":["nightStone"] 
+					"base" : {
+						"animation" : "cradle/map/bankA.def",
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVBVV",
+							"VBBBBB",
+							"VBBABV"
+						],
+						"allowedTerrains" : [
+							"nightStone"
+						]
 					}
 				},
 				"blockedVisitable" : false,
@@ -25,16 +35,37 @@
 					"rarity" : 100,
 					"zoneLimit" : 1
 				},
-				"rewards": [
+				"rewards" : [
 					{
-						"appearChance": { "min": 0, "max": 30 },
-						"guards": [
-							{ "amount": 3, "type" : "cradle_lvl5" },
-							{ "amount": 5, "type" : "cradle_lvl4" },
-							{ "amount": 5, "type" : "cradle_lvl4" },
-							{ "amount": 5, "type" : "cradle_lvl4" },
-							{ "amount": 5, "type" : "cradle_lvl4" },
-							{ "amount": 3, "type" : "cradle_lvl5" }
+						"appearChance" : {
+							"min" : 0,
+							"max" : 30
+						},
+						"guards" : [
+							{
+								"amount" : 3,
+								"type" : "cradle_lvl5"
+							},
+							{
+								"amount" : 5,
+								"type" : "cradle_lvl4"
+							},
+							{
+								"amount" : 5,
+								"type" : "cradle_lvl4"
+							},
+							{
+								"amount" : 5,
+								"type" : "cradle_lvl4"
+							},
+							{
+								"amount" : 5,
+								"type" : "cradle_lvl4"
+							},
+							{
+								"amount" : 3,
+								"type" : "cradle_lvl5"
+							}
 						],
 						"message" : 34,
 						"resources" : {
@@ -43,48 +74,111 @@
 						}
 					},
 					{
-						"appearChance": { "min": 30, "max": 60 },
-						"guards": [
-							{ "amount": 5, "type" : "cradle_lvl5" },
-							{ "amount": 8, "type" : "cradle_lvl4" },
-							{ "amount": 8, "type" : "cradle_lvl4up" },
-							{ "amount": 8, "type" : "cradle_lvl4up" },
-							{ "amount": 8, "type" : "cradle_lvl4" },
-							{ "amount": 5, "type" : "cradle_lvl5" }
+						"appearChance" : {
+							"min" : 30,
+							"max" : 60
+						},
+						"guards" : [
+							{
+								"amount" : 5,
+								"type" : "cradle_lvl5"
+							},
+							{
+								"amount" : 8,
+								"type" : "cradle_lvl4"
+							},
+							{
+								"amount" : 8,
+								"type" : "cradle_lvl4up"
+							},
+							{
+								"amount" : 8,
+								"type" : "cradle_lvl4up"
+							},
+							{
+								"amount" : 8,
+								"type" : "cradle_lvl4"
+							},
+							{
+								"amount" : 5,
+								"type" : "cradle_lvl5"
+							}
 						],
 						"message" : 34,
-						"resources" : {	
+						"resources" : {
 							"crystal" : 15,
 							"gems" : 5,
 							"gold" : 8000
 						}
 					},
 					{
-						"appearChance": { "min": 60, "max": 90 },
-						"guards": [
-							{ "amount": 8, "type" : "cradle_lvl5up" },
-							{ "amount": 12, "type" : "cradle_lvl4" },
-							{ "amount": 12, "type" : "cradle_lvl4up" },
-							{ "amount": 12, "type" : "cradle_lvl4up" },
-							{ "amount": 12, "type" : "cradle_lvl4" },
-							{ "amount": 8, "type" : "cradle_lvl5" }
+						"appearChance" : {
+							"min" : 60,
+							"max" : 90
+						},
+						"guards" : [
+							{
+								"amount" : 8,
+								"type" : "cradle_lvl5up"
+							},
+							{
+								"amount" : 12,
+								"type" : "cradle_lvl4"
+							},
+							{
+								"amount" : 12,
+								"type" : "cradle_lvl4up"
+							},
+							{
+								"amount" : 12,
+								"type" : "cradle_lvl4up"
+							},
+							{
+								"amount" : 12,
+								"type" : "cradle_lvl4"
+							},
+							{
+								"amount" : 8,
+								"type" : "cradle_lvl5"
+							}
 						],
 						"message" : 34,
-						"resources": {
+						"resources" : {
 							"crystal" : 20,
 							"gems" : 10,
 							"gold" : 10000
 						}
 					},
 					{
-						"appearChance": { "min": 90, "max": 100 },
-						"guards": [
-							{ "amount": 15, "type" : "cradle_lvl5up" },
-							{ "amount": 20, "type" : "cradle_lvl4up" },
-							{ "amount": 20, "type" : "cradle_lvl4up" },
-							{ "amount": 20, "type" : "cradle_lvl4up" },
-							{ "amount": 20, "type" : "cradle_lvl4up" },
-							{ "amount": 15, "type" : "cradle_lvl5up" }
+						"appearChance" : {
+							"min" : 90,
+							"max" : 100
+						},
+						"guards" : [
+							{
+								"amount" : 15,
+								"type" : "cradle_lvl5up"
+							},
+							{
+								"amount" : 20,
+								"type" : "cradle_lvl4up"
+							},
+							{
+								"amount" : 20,
+								"type" : "cradle_lvl4up"
+							},
+							{
+								"amount" : 20,
+								"type" : "cradle_lvl4up"
+							},
+							{
+								"amount" : 20,
+								"type" : "cradle_lvl4up"
+							},
+							{
+								"amount" : 15,
+								"type" : "cradle_lvl5up"
+							}
 						],
 						"message" : 34,
 						"resources" : {

@@ -1,34 +1,39 @@
 {
-	"cradle_starMiara": {
-		"army": [
+	"cradle_starMiara" : {
+		"army" : [
 			{
-				"creature": "cradle_lvl1",
-				"max": 25,
-				"min": 15
+				"creature" : "cradle_lvl1",
+				"max" : 25,
+				"min" : 15
 			},
 			{
-				"creature": "cradle_lvl2",
-				"max": 9,
-				"min": 7
+				"creature" : "cradle_lvl2",
+				"max" : 9,
+				"min" : 7
 			},
 			{
-				"creature": "cradle_lvl3",
+				"creature" : "cradle_lvl3",
 				"max" : 5,
 				"min" : 3
 			}
 		],
-		"female": true,
-		"class": "cradle_soulguide",
-		"images": {
-			"large": "cradle/heroes/starMiara/starMiaraB.bmp",
-			"small": "cradle/heroes/starMiara/starMiaraS.bmp",
-			"specialtyLarge": "cradle/heroes/starMiara/starMiaraSpecB.png",
-			"specialtySmall": "cradle/heroes/starMiara/starMiaraSpecS.png"
+		"female" : true,
+		"class" : "cradle_soulguide",
+		"images" : {
+			"large" : "cradle/heroes/starMiara/starMiaraB.bmp",
+			"small" : "cradle/heroes/starMiara/starMiaraS.bmp",
+			"specialtyLarge" : "cradle/heroes/starMiara/starMiaraSpecB.png",
+			"specialtySmall" : "cradle/heroes/starMiara/starMiaraSpecS.png"
 		},
-		"skills":
-		[
-			{ "skill" : "resistance", "level": "basic" },
-			{ "skill" : "offence", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "resistance",
+				"level" : "basic"
+			},
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"bonuses" : {
@@ -39,10 +44,10 @@
 				}
 			}
 		},
-		"texts": {
-			"biography": "Miara Whitestar, instead of serving in the Temple of Quiet Song, chose to fulfill her duty to the Cradle in a manner quite different from that of her numerous Noctra sisters. The palaces of the lands of eternal night owe their stunning architecture to sorcerers like Miara, capable of creating wondrous things even from ordinary stone. The almighty Horst, whose spirit presides over all the cities of eternity and oversees the fulfillment of the duties of his creations, blessed Miara and the other sorcerers to create beauty, something never before seen by the eyes of mere mortals.",
-			"name": "Star Miara",
-			"specialty": {
+		"texts" : {
+			"biography" : "Miara Whitestar, instead of serving in the Temple of Quiet Song, chose to fulfill her duty to the Cradle in a manner quite different from that of her numerous Noctra sisters. The palaces of the lands of eternal night owe their stunning architecture to sorcerers like Miara, capable of creating wondrous things even from ordinary stone. The almighty Horst, whose spirit presides over all the cities of eternity and oversees the fulfillment of the duties of his creations, blessed Miara and the other sorcerers to create beauty, something never before seen by the eyes of mere mortals.",
+			"name" : "Star Miara",
+			"specialty" : {
 				"description" : "{Crystal}\r\n\r\nIncreases kingdom's crystal production by 1 per day.",
 				"tooltip" : "Bonus: + 1 crystal",
 				"name" : "Crystal"

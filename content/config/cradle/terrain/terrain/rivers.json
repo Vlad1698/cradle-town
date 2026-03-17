@@ -1,10 +1,10 @@
 {
-    "nightStoneRiver" : {
-      "text" : "Eternal river",
-      "shortIdentifier" : "nr",
-      "tilesFilename" : "cradle/terrain/river/river.def",
-      "delta" : "cradle/terrain/river/delta.def",
-	"paletteAnimation" : [
+	"nightStoneRiver" : {
+		"text" : "Eternal river",
+		"shortIdentifier" : "nr",
+		"tilesFilename" : "cradle/terrain/river/river.def",
+		"delta" : "cradle/terrain/river/delta.def",
+		"paletteAnimation" : [
 			{
 				"start" : 1,
 				"length" : 5
@@ -12,5 +12,3 @@
 		]
 	}
 }
-
-   

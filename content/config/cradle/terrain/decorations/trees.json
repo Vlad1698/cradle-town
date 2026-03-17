@@ -5,68 +5,134 @@
 				"templates" : {
 					"nightStoneTre1" : {
 						"animation" : "cradle/terrain/treesAR",
-						"mask" : [ "VVVV", "VVBB", "VBBV" ],
-						"allowedTerrains": [ "nightStone" ]
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"nightStone"
+						]
 					},
 					"nightStoneTre2" : {
 						"animation" : "cradle/terrain/treesAL",
-						"mask" : [ "VVVV", "VBBV", "VVBB" ],
-						"allowedTerrains": [ "nightStone" ]
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"nightStone"
+						]
 					},
 					"nightStoneTre3" : {
 						"animation" : "cradle/terrain/treesBL",
-						"mask" : [ "VVVV", "VVBB", "VBBB", "VBBV" ],
-						"allowedTerrains": [ "nightStone" ]
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"nightStone"
+						]
 					},
 					"nightStoneTre4" : {
 						"animation" : "cradle/terrain/treesBR",
-						"mask" : [ "VVVV", "VBBV", "VBBB", "VVBB" ],
-						"allowedTerrains": [ "nightStone" ]
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VBBB",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"nightStone"
+						]
 					},
 					"nightStoneTre5" : {
 						"animation" : "cradle/terrain/treesSL",
-						"mask" : [ "VVVV", "VBBV", "VVBB" ],
-						"allowedTerrains": [ "nightStone" ]
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"nightStone"
+						]
 					},
 					"nightStoneTre6" : {
 						"animation" : "cradle/terrain/treesSR",
-						"mask" : [ "VVVV", "VVBB", "VBBV" ],
-						"allowedTerrains": [ "nightStone" ]
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"nightStone"
+						]
 					},
 					"nightStoneTre7" : {
 						"animation" : "cradle/terrain/tree1",
-						"mask" : [ "VV", "VB" ],
-						"allowedTerrains": [ "nightStone" ]
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"nightStone"
+						]
 					},
 					"nightStoneTre8" : {
 						"animation" : "cradle/terrain/tree2",
-						"mask" : [ "VV", "VB" ],
-						"allowedTerrains": [ "nightStone" ]
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"nightStone"
+						]
 					},
 					"nightStoneTre9" : {
 						"animation" : "cradle/terrain/tree3",
-						"mask" : [ "VV", "VB" ],
-						"allowedTerrains": [ "nightStone" ]
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"nightStone"
+						]
 					},
 					"nightStoneTre10" : {
 						"animation" : "cradle/terrain/tree4",
-						"mask" : [ "VV", "VB" ],
-						"allowedTerrains": [ "nightStone" ]
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"nightStone"
+						]
 					},
 					"nightStoneTre11" : {
 						"animation" : "cradle/terrain/tree5",
-						"mask" : [ "VV", "VB" ],
-						"allowedTerrains": [ "nightStone" ]
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"nightStone"
+						]
 					},
 					"nightStoneTre12" : {
 						"animation" : "cradle/terrain/tree6",
-						"mask" : [ "VV", "VB" ],
-						"allowedTerrains": [ "nightStone" ]
-					 }
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"nightStone"
+						]
+					}
 				}
 			}
-		}	
-	}	
+		}
+	}
 }
-	
-	

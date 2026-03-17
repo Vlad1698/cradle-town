@@ -1,46 +1,50 @@
 {
-	"cradle_whisperArvin": {
-		"army": [
+	"cradle_whisperArvin" : {
+		"army" : [
 			{
-				"creature": "cradle_lvl1",
-				"max": 25,
-				"min": 15
+				"creature" : "cradle_lvl1",
+				"max" : 25,
+				"min" : 15
 			},
 			{
-				"creature": "cradle_lvl2",
-				"max": 9,
-				"min": 7
+				"creature" : "cradle_lvl2",
+				"max" : 9,
+				"min" : 7
 			},
 			{
-				"creature": "cradle_lvl3",
+				"creature" : "cradle_lvl3",
 				"max" : 5,
 				"min" : 3
 			}
 		],
-		"female": false,
-		"class": "cradle_oneiroguard",
-		"images": {
-			"large": "cradle/heroes/whisperArvin/whisperArvinB.bmp",
-			"small": "cradle/heroes/whisperArvin/whisperArvinS.bmp",
-			"specialtyLarge": "cradle/heroes/whisperArvin/whisperArvinSpecB.bmp",
-			"specialtySmall": "cradle/heroes/whisperArvin/whisperArvinSpecS.bmp"
+		"female" : false,
+		"class" : "cradle_oneiroguard",
+		"images" : {
+			"large" : "cradle/heroes/whisperArvin/whisperArvinB.bmp",
+			"small" : "cradle/heroes/whisperArvin/whisperArvinS.bmp",
+			"specialtyLarge" : "cradle/heroes/whisperArvin/whisperArvinSpecB.bmp",
+			"specialtySmall" : "cradle/heroes/whisperArvin/whisperArvinSpecS.bmp"
 		},
-		"spellbook" :
-		[
-			"magicArrow" 
+		"spellbook" : [
+			"magicArrow"
 		],
-		"skills":
-		[
-			{ "skill" : "resistance", "level": "basic" },
-			{ "skill" : "intelligence", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "resistance",
+				"level" : "basic"
+			},
+			{
+				"skill" : "intelligence",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"secondary" : "intelligence"
 		},
-		"texts": {
-			"biography": "Like all the few noxtra men created by Horst to serve the great machine of death in the wounded world, Arvin Silentwhisper spent many years in the service of the Cradle Sanctuary, where he became one of the few star conjurers capable of discerning Horst's own face among the countless stars. His master bestowed upon him his blessing, augmenting his powers and further strengthening his insatiable thirst for new knowledge. This drive repeatedly led him to the foreign lands of mortals, where he had the honor of making good connections among the sorcerers of Bracada and the elemental realms.",
-			"name": "Whisper Arvin",
-			"specialty": {
+		"texts" : {
+			"biography" : "Like all the few noxtra men created by Horst to serve the great machine of death in the wounded world, Arvin Silentwhisper spent many years in the service of the Cradle Sanctuary, where he became one of the few star conjurers capable of discerning Horst's own face among the countless stars. His master bestowed upon him his blessing, augmenting his powers and further strengthening his insatiable thirst for new knowledge. This drive repeatedly led him to the foreign lands of mortals, where he had the honor of making good connections among the sorcerers of Bracada and the elemental realms.",
+			"name" : "Whisper Arvin",
+			"specialty" : {
 				"description" : "{Intelligence}\r\n\r\nReceives a 5% per level bonus to Intelligence skill percentage.",
 				"tooltip" : "Skill bonus: Intelligence",
 				"name" : "Intelligence"

@@ -1,68 +1,67 @@
-	{
-		"cradle_lvl3up": {
-			"name": {
-				"singular": "Ancient Harbinger",
-				"plural": "Ancient Harbingers"
+{
+	"cradle_lvl3up" : {
+		"name" : {
+			"singular" : "Ancient Harbinger",
+			"plural" : "Ancient Harbingers"
+		},
+		"level" : 3,
+		"special" : false,
+		"faction" : "cradle",
+		"cost" : {
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 230
+		},
+		"fightValue" : 360,
+		"aiValue" : 450,
+		"growth" : 7,
+		"attack" : 8,
+		"defense" : 8,
+		"hitPoints" : 24,
+		"speed" : 9,
+		"damage" : {
+			"min" : 4,
+			"max" : 5
+		},
+		"advMapAmount" : {
+			"max" : 18,
+			"min" : 12
+		},
+		"doubleWide" : false,
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING"
 			},
-			"level": 3,
-			"special": false,
-			"faction": "cradle",
-			"cost": {
-				"wood": 0,
-				"mercury": 0,
-				"ore": 0,
-				"sulfur": 0,
-				"crystal": 0,
-				"gems": 0,
-				"gold": 230
+			"mindImmun" : {
+				"type" : "MIND_IMMUNITY"
 			},
-			"fightValue": 360,
-			"aiValue": 450,
-			"growth": 7,
-			"attack": 8,
-			"defense": 8,
-			"hitPoints": 24,
-			"speed": 9,
-			"damage": {
-				"min": 4,
-				"max": 5
-			},
-			"advMapAmount": {
-				"max": 18,
-				"min": 12
-			},
-			"doubleWide": false,
-			"abilities": {
-				"canFly" : {
-					"type" : "FLYING"
-				},
-				"mindImmun" : {
-					"type" : "MIND_IMMUNITY"
-				},
-				"nonLiving" : 
-			{
+			"nonLiving" : {
 				"type" : "NON_LIVING"
 			}
-			},	
-			"hasDoubleWeek": true,
-			"graphics": {
-				"animation": "cradle/creatures/battle/lvl3up.def",
-				"map": "cradle/creatures/adventure/lvl3up.def",
-				"iconSmall": "cradle/creatures/icon/lvl3up.bmp",
-				"iconLarge": "cradle/creatures/portrait/lvl3up.bmp",
-				"timeBetweenFidgets": 1.00,
-				"animationTime": {
-					"walk": 1,
-					"idle": 10.00,
-					"attack": 1
-				}
-			},
-			"sound": {
-				"attack": "cradle/LVL3ATTK.wav",
-				"defend": "TBRDDFND.wav",
-				"killed": "cradle/LVL3DIE.wav",
-				"move": "TBRDMOVE.wav",
-				"wince": "cradle/LVL3DMG.wav"
+		},
+		"hasDoubleWeek" : true,
+		"graphics" : {
+			"animation" : "cradle/creatures/battle/lvl3up.def",
+			"map" : "cradle/creatures/adventure/lvl3up.def",
+			"iconSmall" : "cradle/creatures/icon/lvl3up.bmp",
+			"iconLarge" : "cradle/creatures/portrait/lvl3up.bmp",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1
 			}
+		},
+		"sound" : {
+			"attack" : "cradle/LVL3ATTK.wav",
+			"defend" : "TBRDDFND.wav",
+			"killed" : "cradle/LVL3DIE.wav",
+			"move" : "TBRDMOVE.wav",
+			"wince" : "cradle/LVL3DMG.wav"
 		}
 	}
+}

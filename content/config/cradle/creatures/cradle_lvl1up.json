@@ -1,69 +1,68 @@
 {
-	"cradle_lvl1up": {
-		"name": {
-			"singular": "Moonnoide",
-			"plural": "Moonnoides"
+	"cradle_lvl1up" : {
+		"name" : {
+			"singular" : "Moonnoide",
+			"plural" : "Moonnoides"
 		},
-		"level": 1,
-		"special": false,
-		"faction": "cradle",
-		"cost": {
-			"wood": 0,
-			"mercury": 0,
-			"ore": 0,
-			"sulfur": 0,
-			"crystal": 0,
-			"gems": 0,
-			"gold": 70
+		"level" : 1,
+		"special" : false,
+		"faction" : "cradle",
+		"cost" : {
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 70
 		},
-		"fightValue": 70,
-		"aiValue": 80,
-		"growth": 14,
-		"horde": 9,
-		"attack": 4,
-		"defense": 6,
-		"hitPoints": 6,
-		"speed": 7,
-		"damage": {
-			"min": 2,
-			"max": 2
+		"fightValue" : 70,
+		"aiValue" : 80,
+		"growth" : 14,
+		"horde" : 9,
+		"attack" : 4,
+		"defense" : 6,
+		"hitPoints" : 6,
+		"speed" : 7,
+		"damage" : {
+			"min" : 2,
+			"max" : 2
 		},
-		"advMapAmount": {
-			"max": 55,
-			"min": 20
+		"advMapAmount" : {
+			"max" : 55,
+			"min" : 20
 		},
-		"doubleWide": false,
-		"abilities": {
+		"doubleWide" : false,
+		"abilities" : {
 			"canFly" : {
 				"type" : "FLYING"
 			},
 			"mindImmun" : {
 				"type" : "MIND_IMMUNITY"
 			},
-			"nonLiving" : 
-			{
+			"nonLiving" : {
 				"type" : "NON_LIVING"
 			}
-		},	
-		"hasDoubleWeek": true,
-		"graphics": {
-			"animation": "cradle/creatures/battle/lvl1up.def",
-			"map": "cradle/creatures/adventure/lvl1up.def",
-			"iconSmall": "cradle/creatures/icon/lvl1up.bmp",
-			"iconLarge": "cradle/creatures/portrait/lvl1up.bmp",
-			"timeBetweenFidgets": 1.00,
-			"animationTime": {
-				"walk": 1,
-				"idle": 10.00,
-				"attack": 1
+		},
+		"hasDoubleWeek" : true,
+		"graphics" : {
+			"animation" : "cradle/creatures/battle/lvl1up.def",
+			"map" : "cradle/creatures/adventure/lvl1up.def",
+			"iconSmall" : "cradle/creatures/icon/lvl1up.bmp",
+			"iconLarge" : "cradle/creatures/portrait/lvl1up.bmp",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1
 			}
 		},
-		"sound": {
-			"attack": "SPRTATTK.wav",
-			"defend": "SPRTATTK.wav",
-			"killed": "cradle/LVL1DIE.wav",
-			"move": "cradle/LVL1WALK",
-			"wince": "WGHTWNCE.wav"
+		"sound" : {
+			"attack" : "SPRTATTK.wav",
+			"defend" : "SPRTATTK.wav",
+			"killed" : "cradle/LVL1DIE.wav",
+			"move" : "cradle/LVL1WALK",
+			"wince" : "WGHTWNCE.wav"
 		}
 	}
 }

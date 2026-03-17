@@ -1,87 +1,82 @@
 {
-	"cradle_lvl5aup": {
-		"name": {
-			"singular": "Nokshu monks",
-			"plural": "Nokshus monks"
+	"cradle_lvl5aup" : {
+		"name" : {
+			"singular" : "Nokshu monks",
+			"plural" : "Nokshus monks"
 		},
-		"level": 5,
-		"special": false,
-		"faction": "cradle",
-		"cost": {
-			"wood": 0,
-			"mercury": 0,
-			"ore": 0,
-			"sulfur": 0,
-			"crystal": 0,
-			"gems": 0,
-			"gold": 450
+		"level" : 5,
+		"special" : false,
+		"faction" : "cradle",
+		"cost" : {
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 450
 		},
-		"fightValue": 883,
-		"aiValue": 780,
-		"growth": 3,
-		"attack": 12,
-		"defense": 10,
+		"fightValue" : 883,
+		"aiValue" : 780,
+		"growth" : 3,
+		"attack" : 12,
+		"defense" : 10,
 		"shots" : 15,
-		"hitPoints": 40,
-		"speed": 8,
-		"damage": {
-			"min": 10,
-			"max": 12
+		"hitPoints" : 40,
+		"speed" : 8,
+		"damage" : {
+			"min" : 10,
+			"max" : 12
 		},
-		"advMapAmount": {
-			"max": 13,
-			"min": 9
+		"advMapAmount" : {
+			"max" : 13,
+			"min" : 9
 		},
-		"doubleWide": false,
-		"abilities": {
-			"Shoot": 
-			{
-				"type": "SHOOTER"
+		"doubleWide" : false,
+		"abilities" : {
+			"Shoot" : {
+				"type" : "SHOOTER"
 			},
-			"castsHeals" :
-			{
+			"castsHeals" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.firstAid",
 				"val" : 3
 			},
-			"casts" :
-			{
+			"casts" : {
 				"type" : "CASTS",
 				"val" : 10
 			},
-			"mindImmun" : 
-			{
+			"mindImmun" : {
 				"type" : "MIND_IMMUNITY"
 			},
-			"nonLiving" : 
-			{
+			"nonLiving" : {
 				"type" : "NON_LIVING"
 			}
 		},
-		"hasDoubleWeek": true,
-		"graphics": {
-			"animation": "cradle/creatures/battle/lvl5аup.def",
-			"map": "cradle/creatures/adventure/lvl5aup.def",
-			"iconSmall": "cradle/creatures/icon/lvl5aup.bmp",
-			"iconLarge": "cradle/creatures/portrait/lvl5aup.bmp",
-			"timeBetweenFidgets": 1.00,
-			"animationTime": {
-				"walk": 1.4,
-				"idle": 10.00,
-				"attack": 1
+		"hasDoubleWeek" : true,
+		"graphics" : {
+			"animation" : "cradle/creatures/battle/lvl5аup.def",
+			"map" : "cradle/creatures/adventure/lvl5aup.def",
+			"iconSmall" : "cradle/creatures/icon/lvl5aup.bmp",
+			"iconLarge" : "cradle/creatures/portrait/lvl5aup.bmp",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1.4,
+				"idle" : 10.0,
+				"attack" : 1
 			},
-			"missile": {
-				"attackClimaxFrame": 5,
-				"projectile": "cradle/projectiles/missile5lvla.def",
-				"offset": {
-					"upperX": 0,
-					"upperY": 0,
-					"middleX": 0,
-					"middleY": 0,
-					"lowerX": -5,
-					"lowerY": 20
+			"missile" : {
+				"attackClimaxFrame" : 5,
+				"projectile" : "cradle/projectiles/missile5lvla.def",
+				"offset" : {
+					"upperX" : 0,
+					"upperY" : 0,
+					"middleX" : 0,
+					"middleY" : 0,
+					"lowerX" : -5,
+					"lowerY" : 20
 				},
-				"frameAngles": [
+				"frameAngles" : [
 					-90,
 					-45,
 					0,
@@ -90,13 +85,13 @@
 				]
 			}
 		},
-		"sound": {
-			"attack": "cradle/LVLALT5ATTK.wav",
-			"defend": "cradle/LVLALT5MAGIK.wav",
-			"killed": "TRLLKILL.wav",
-			"move": "cradle/LVLALT5WALK.wav",
-			"shoot": "cradle/LVLALT5ATTK.wav",
-			"wince": "CALFWNCE.wav"
+		"sound" : {
+			"attack" : "cradle/LVLALT5ATTK.wav",
+			"defend" : "cradle/LVLALT5MAGIK.wav",
+			"killed" : "TRLLKILL.wav",
+			"move" : "cradle/LVLALT5WALK.wav",
+			"shoot" : "cradle/LVLALT5ATTK.wav",
+			"wince" : "CALFWNCE.wav"
 		}
 	}
 }

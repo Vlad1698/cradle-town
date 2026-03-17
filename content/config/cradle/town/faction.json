@@ -1,18 +1,18 @@
 {
-	"cradle": {
-		"name": "Cradle",
-		"alignment": "good",
+	"cradle" : {
+		"name" : "Cradle",
+		"alignment" : "good",
 		"boat" : "boatFortress",
-		"primaryResource": "crystal",
-		"nativeTerrain": "nightStone",
-		"creatureBackground": {
-			"120px": "cradle/creaturebg120px",
-			"130px": "cradle/creaturebg130px"
+		"primaryResource" : "crystal",
+		"nativeTerrain" : "nightStone",
+		"creatureBackground" : {
+			"120px" : "cradle/creaturebg120px",
+			"130px" : "cradle/creaturebg130px"
 		},
-		"town": {
-			"mapObject": {
-				"filters": {
-					"castle": [
+		"town" : {
+			"mapObject" : {
+				"filters" : {
+					"castle" : [
 						"allOf",
 						[
 							"castle"
@@ -24,7 +24,7 @@
 							]
 						]
 					],
-					"citadel": [
+					"citadel" : [
 						"allOf",
 						[
 							"citadel"
@@ -36,7 +36,7 @@
 							]
 						]
 					],
-					"fort": [
+					"fort" : [
 						"allOf",
 						[
 							"fort"
@@ -49,26 +49,28 @@
 						]
 					]
 				},
-				"templates": {
-					"capitol": {
-						"animation": "cradle/map/capitol.def"
+				"templates" : {
+					"capitol" : {
+						"animation" : "cradle/map/capitol.def"
 					},
-					"castle": {
-						"animation": "cradle/map/castle.def"
+					"castle" : {
+						"animation" : "cradle/map/castle.def"
 					},
-					"citadel": {
-						"animation": "cradle/map/citadel.def"
+					"citadel" : {
+						"animation" : "cradle/map/citadel.def"
 					},
-					"fort": {
-						"animation": "cradle/map/fort.def"
+					"fort" : {
+						"animation" : "cradle/map/fort.def"
 					},
-					"village": {
-						"animation": "cradle/map/village.def"
+					"village" : {
+						"animation" : "cradle/map/village.def"
 					}
 				}
 			},
-			"musicTheme": [ "music/factions/cradle/CradleTown" ],
-			"creatures": [
+			"musicTheme" : [
+				"music/factions/cradle/CradleTown"
+			],
+			"creatures" : [
 				[
 					"cradle_lvl1",
 					"cradle_lvl1up"
@@ -93,15 +95,15 @@
 				],
 				[
 					"cradle_lvl6",
-					"cradle_lvl6up",
+					"cradle_lvl6up"
 				],
 				[
 					"cradle_lvl7",
 					"cradle_lvl7up"
 				]
 			],
-			"guildWindow": "cradle/town/mageguild",
-			"names": [
+			"guildWindow" : "cradle/town/mageguild",
+			"names" : [
 				"Noctela",
 				"Zvezdozor",
 				"Tumanora",
@@ -114,8 +116,8 @@
 				"Mirozor",
 				"Horstinus"
 			],
-			"hallBackground": "cradle/town/hall",
-			"hallSlots": [
+			"hallBackground" : "cradle/town/hall",
+			"hallSlots" : [
 				[
 					[
 						"villageHall",
@@ -204,36 +206,36 @@
 				]
 			],
 			"moatAbility" : "castleMoat",
-			"horde": [
+			"horde" : [
 				0,
 				5
 			],
-			"icons": {
-				"fort": {
-					"built": {
-						"large": "cradle/icons/fortbuildedlarge.bmp",
-						"small": "cradle/icons/fortbuildedsmall.bmp"
+			"icons" : {
+				"fort" : {
+					"built" : {
+						"large" : "cradle/icons/fortbuildedlarge.bmp",
+						"small" : "cradle/icons/fortbuildedsmall.bmp"
 					},
-					"normal": {
-						"large": "cradle/icons/fortlarge.bmp",
-						"small": "cradle/icons/fortsmall.bmp"
+					"normal" : {
+						"large" : "cradle/icons/fortlarge.bmp",
+						"small" : "cradle/icons/fortsmall.bmp"
 					}
 				},
-				"village": {
-					"built": {
-						"large": "cradle/icons/hallbuildedlarge.bmp",
-						"small": "cradle/icons/hallbuildedsmall.bmp"
+				"village" : {
+					"built" : {
+						"large" : "cradle/icons/hallbuildedlarge.bmp",
+						"small" : "cradle/icons/hallbuildedsmall.bmp"
 					},
-					"normal": {
-						"large": "cradle/icons/halllarge.bmp",
-						"small": "cradle/icons/hallsmall.bmp"
+					"normal" : {
+						"large" : "cradle/icons/halllarge.bmp",
+						"small" : "cradle/icons/hallsmall.bmp"
 					}
 				}
 			},
-			"mageGuild": 5,
-			"defaultTavern": 5,
-			"tavernVideo": "TAVERN.BIK",
-			"townBackground": "cradle/town/background",
+			"mageGuild" : 5,
+			"defaultTavern" : 5,
+			"tavernVideo" : "TAVERN.BIK",
+			"townBackground" : "cradle/town/background",
 			"guildBackground" : "TPMAGE.bmp"
 		}
 	}

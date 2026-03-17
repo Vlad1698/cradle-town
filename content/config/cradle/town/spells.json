@@ -1,10 +1,7 @@
 {
-	"cradle" :
-	{
-		"town" :
-		{
-			"guildSpells" :
-			{
+	"cradle" : {
+		"town" : {
+			"guildSpells" : {
 				"bless" : 2,
 				"bloodlust" : 5,
 				"cure" : 4,

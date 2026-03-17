@@ -5,9 +5,19 @@
 				"templates" : {
 					"nightStone_hillFort" : {
 						"animation" : "cradle/terrain/hillFort",
-						"visitableFrom" : ["---", "-+-", "+++"],
-						"mask" : ["VVV", "VBB", "VBA"],
-						"allowedTerrains" : ["nightStone"]
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VBA"
+						],
+						"allowedTerrains" : [
+							"nightStone"
+						]
 					}
 				}
 			}

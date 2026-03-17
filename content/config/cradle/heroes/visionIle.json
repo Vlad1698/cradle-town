@@ -1,42 +1,47 @@
 {
-	"cradle_visionIle": {
-		"army": [
+	"cradle_visionIle" : {
+		"army" : [
 			{
-				"creature": "cradle_lvl1",
-				"max": 25,
-				"min": 15
+				"creature" : "cradle_lvl1",
+				"max" : 25,
+				"min" : 15
 			},
 			{
-				"creature": "cradle_lvl2",
-				"max": 9,
-				"min": 7
+				"creature" : "cradle_lvl2",
+				"max" : 9,
+				"min" : 7
 			},
 			{
-				"creature": "cradle_lvl3",
+				"creature" : "cradle_lvl3",
 				"max" : 5,
 				"min" : 3
 			}
 		],
-		"female": true,
-		"class": "cradle_soulguide",
-		"images": {
-			"large": "cradle/heroes/visionIle/visionIleB.bmp",
-			"small": "cradle/heroes/visionIle/visionIleS.bmp",
-			"specialtyLarge": "cradle/heroes/visionIle/visionIleSpecB.bmp",
-			"specialtySmall": "cradle/heroes/visionIle/visionIleSpecS.bmp"
+		"female" : true,
+		"class" : "cradle_soulguide",
+		"images" : {
+			"large" : "cradle/heroes/visionIle/visionIleB.bmp",
+			"small" : "cradle/heroes/visionIle/visionIleS.bmp",
+			"specialtyLarge" : "cradle/heroes/visionIle/visionIleSpecB.bmp",
+			"specialtySmall" : "cradle/heroes/visionIle/visionIleSpecS.bmp"
 		},
-		"skills":
-		[
-			{ "skill" : "resistance", "level": "basic" },
-			{ "skill" : "armorer", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "resistance",
+				"level" : "basic"
+			},
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"secondary" : "armorer"
 		},
-		"texts": {
-			"biography": "The nature of Ile Moonsight remains a mystery to many inhabitants of the cities of eternity. Neither the Noctra, nor the Lunatics, nor the Noxu, nor even the Oneirostrags know who he or she truly is. Ile came to this world from the realm of eternity along with the Night Reapers and Horst, but throughout his stay, he maintains aloofness from his master. Occasionally, he is spotted in mortal lands and even in the domains of the Cradle's worst enemies. What exactly he is doing so far from home also remains a mystery, but it is speculated that he is carrying out orders from Horst himself.",
-			"name": "Vision Ile",
-			"specialty": {
+		"texts" : {
+			"biography" : "The nature of Ile Moonsight remains a mystery to many inhabitants of the cities of eternity. Neither the Noctra, nor the Lunatics, nor the Noxu, nor even the Oneirostrags know who he or she truly is. Ile came to this world from the realm of eternity along with the Night Reapers and Horst, but throughout his stay, he maintains aloofness from his master. Occasionally, he is spotted in mortal lands and even in the domains of the Cradle's worst enemies. What exactly he is doing so far from home also remains a mystery, but it is speculated that he is carrying out orders from Horst himself.",
+			"name" : "Vision Ile",
+			"specialty" : {
 				"description" : "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill percentage.",
 				"tooltip" : "Skill bonus: Armorer",
 				"name" : "Armorer"

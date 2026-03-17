@@ -1,42 +1,47 @@
 {
-	"cradle_lightHeilian": {
-		"army": [
+	"cradle_lightHeilian" : {
+		"army" : [
 			{
-				"creature": "cradle_lvl1",
-				"max": 25,
-				"min": 15
+				"creature" : "cradle_lvl1",
+				"max" : 25,
+				"min" : 15
 			},
 			{
-				"creature": "cradle_lvl1",
-				"max": 25,
-				"min": 15
+				"creature" : "cradle_lvl1",
+				"max" : 25,
+				"min" : 15
 			},
 			{
-				"creature": "cradle_lvl1",
-				"max": 25,
-				"min": 15
+				"creature" : "cradle_lvl1",
+				"max" : 25,
+				"min" : 15
 			}
 		],
-		"female": false,
-		"class": "cradle_soulguide",
-		"images": {
-			"large": "cradle/heroes/lightHeilian/lightHeilianB.bmp",
-			"small": "cradle/heroes/lightHeilian/lightHeilianS.bmp",
-			"specialtyLarge": "cradle/heroes/lightHeilian/lightHeilianSpecB.png",
-			"specialtySmall": "cradle/heroes/lightHeilian/lightHeilianSpecS.png"
+		"female" : false,
+		"class" : "cradle_soulguide",
+		"images" : {
+			"large" : "cradle/heroes/lightHeilian/lightHeilianB.bmp",
+			"small" : "cradle/heroes/lightHeilian/lightHeilianS.bmp",
+			"specialtyLarge" : "cradle/heroes/lightHeilian/lightHeilianSpecB.png",
+			"specialtySmall" : "cradle/heroes/lightHeilian/lightHeilianSpecS.png"
 		},
-		"skills":
-		[
-			{ "skill" : "resistance", "level": "basic" },
-			{ "skill" : "tactics", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "resistance",
+				"level" : "basic"
+			},
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"creature" : "cradle_lvl1"
 		},
-		"texts": {
-			"biography": "Heylian can rightfully be called the true king of the azure river lunatics, for he possesses an enviable ability to rally his fellow lunatics, who value freedom above all else. A sense of duty is not an empty phrase for him; having emerged from the realms of eternity into the mortal world, he realized what could happen to souls unable to find their way to the afterlife—they are doomed to become instruments in the hands of malevolent entities. Heylian decided to carry his light across his realm, becoming a shining light for those unfortunate enough to stray from the great stream of souls.",
-			"name": "Light Heilian",
-			"specialty": {
+		"texts" : {
+			"biography" : "Heylian can rightfully be called the true king of the azure river lunatics, for he possesses an enviable ability to rally his fellow lunatics, who value freedom above all else. A sense of duty is not an empty phrase for him; having emerged from the realms of eternity into the mortal world, he realized what could happen to souls unable to find their way to the afterlife—they are doomed to become instruments in the hands of malevolent entities. Heylian decided to carry his light across his realm, becoming a shining light for those unfortunate enough to stray from the great stream of souls.",
+			"name" : "Light Heilian",
+			"specialty" : {
 				"description" : "{Sleepwalkers}\r\n\r\nIncreases the Attack and Defense skills of any Sleepwalkers or Moonnoides for each level attained after 1st level.",
 				"tooltip" : "Creature bonus: Sleepwalkers",
 				"name" : "Sleepwalkers"

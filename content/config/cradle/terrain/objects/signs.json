@@ -5,9 +5,17 @@
 				"templates" : {
 					"nightStone_sign" : {
 						"animation" : "cradle/terrain/tablet",
-						"allowedTerrains": [ "nightStone" ],
-						"mask" : [ "A" ],
-						"visitableFrom" : [ "---", "+++", "+++" ]
+						"allowedTerrains" : [
+							"nightStone"
+						],
+						"mask" : [
+							"A"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						]
 					}
 				}
 			}
